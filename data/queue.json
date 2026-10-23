@@ -1,0 +1,269 @@
+{
+  "items": [
+    {
+      "id": "20261023-090000-long",
+      "status": "draft",
+      "format": "long",
+      "title": "Cuánto necesitas de verdad para vivir de tus inversiones",
+      "thumbnail_text": "LA CUENTA REAL",
+      "description": "La regla del 4% se repite en todos los vídeos de finanzas, pero casi nadie explica de dónde sale, cuándo falla y qué gastos deja fuera. Hacemos la cuenta con números concretos y con los tres riesgos que suelen ignorarse: las caídas de la bolsa, la inflación y los costes.\n\nNo hay una cifra mágica. Hay una fórmula que depende de tu gasto real, tu horizonte y tu tolerancia a las caídas. Y hay una parte de la respuesta que no es financiera.\n\nFuentes:\n- Estudio Trinity (1998): https://en.wikipedia.org/wiki/Trinity_study\n- INE, IPC: https://www.ine.es/\n- Banco de España: https://www.bde.es/\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "libertad financiera",
+        "regla del 4%",
+        "invertir",
+        "jubilación",
+        "finanzas personales",
+        "independencia financiera"
+      ],
+      "sources": [
+        {
+          "title": "Trinity Study",
+          "url": "https://en.wikipedia.org/wiki/Trinity_study"
+        },
+        {
+          "title": "INE",
+          "url": "https://www.ine.es/"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Cuánto dinero hace falta para dejar de depender de un sueldo? En internet verás cifras de todo tipo: cien mil euros, un millón, lo que necesites. La mayoría son números redondos sin ningún cálculo detrás. Hoy vamos a hacer la cuenta de verdad, con una regla que lleva décadas estudiándose y con sus límites bien claros. Y te aviso: la respuesta incómoda no es cuánto dinero necesitas, sino cuánto gastas.",
+          "image_prompt": "A person standing at a crossroads made of banknotes, two roads vanishing into fog, one paved with coins, editorial illustration in ink and watercolor",
+          "chart": null
+        },
+        {
+          "text": "La regla del cuatro por ciento sale de un estudio de 1998, el Trinity Study, que analizó carteras de acciones y bonos durante periodos largos. La idea es esta: si retiras cada año el cuatro por ciento de tu cartera y el resto sigue invertido, hay una probabilidad alta de que el dinero dure treinta años. No es una garantía ni una ley física. Es una estimación histórica que funciona mejor con horizontes largos y carteras diversificadas.",
+          "image_prompt": "An old wooden desk with a paper chart made of overlapping coins, a magnifying glass and a warm lamp, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Con esa regla, la cuenta es sencilla: necesitas veinticinco veces tu gasto anual. Si gastas mil doscientos euros al mes, son catorce mil cuatrocientos al año, o sea trescientos sesenta mil euros. Para dos mil euros al mes, seiscientos mil. Y ojo: hablamos de gasto real, no de lo que te gustaría gastar. Cada euro de gasto fijo que recortas reduce el capital que necesitas. Por eso recortar gastos es la palanca más rápida, aunque sea la menos glamurosa.",
+          "image_prompt": "A monthly budget drawn as a staircase of stacked coins, a small figure climbing the steps, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Y aquí entra la parte que casi nadie enseña: la bolsa no sube en línea recta. Este gráfico muestra el S and P quinientos en los últimos cinco años. La tendencia es alcista, sí, pero con caídas intermedias que asustan. Si necesitas el dinero justo cuando cae un veinte por ciento, la regla del cuatro por ciento se rompe. Por eso el horizonte importa tanto como el porcentaje.",
+          "image_prompt": "A roller coaster made of stock market candlesticks under a stormy sky, editorial illustration",
+          "chart": {
+            "ticker": "^spx",
+            "label": "S&P 500 · últimos 5 años",
+            "caption": "La tendencia sube, pero con caídas que pueden durar meses.",
+            "days": 1825
+          }
+        },
+        {
+          "text": "Imagina dos personas con la misma cartera. Una se jubila justo antes de una crisis; la otra, después. La primera retira dinero mientras todo baja, y esas ventas le impiden recuperarse. Se llama riesgo de secuencia y es una de las razones por las que la regla del cuatro por ciento recibe tantas críticas. La solución no es adivinar el futuro: es tener un colchón de dos o tres años de gastos fuera de la bolsa para no vender en el peor momento.",
+          "image_prompt": "Two sailboats facing a storm, one leaving port before the storm and one after, dramatic clouds, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Hay otro enemigo silencioso: la inflación. Con un dos coma cinco por ciento anual, seiscientos mil euros dentro de veinte años no compran lo mismo que hoy; harían falta casi un millón para mantener el mismo poder de compra. Por eso no vale con dejar el dinero quieto. Tu cartera tiene que crecer al menos lo que suben los precios, y eso requiere asumir algo de riesgo.",
+          "image_prompt": "A shopping basket shrinking while the price tags on the shelves grow, surreal editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Y luego están los costes. Un fondo con un uno coma cinco por ciento anual de comisiones puede parecer barato, pero sobre quinientos mil euros son siete mil quinientos euros al año. En veinte años, la diferencia con un fondo indexado de cero coma dos por ciento es enorme. En España, además, las ganancias tributan en la base del ahorro, entre el diecinueve y el veintitrés por ciento. Resta comisiones e impuestos antes de creerte cualquier rentabilidad.",
+          "image_prompt": "A leaky bucket losing coins through small holes, coins scattered on the floor, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "La libertad financiera no es una cifra única. Depende de tu gasto, de tu edad, de si tienes casa pagada, de si trabajas por gusto o por necesidad. Alguien con trescientos mil euros y ochocientos de gasto tiene más margen que alguien con un millón y cinco mil de hipoteca. La cuenta honesta incluye lo que quieres conservar, no solo lo que quieres dejar de pagar.",
+          "image_prompt": "A house on one side of a balance scale and a clock on the other, a person watching, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Si tuviera que resumirlo en tres decisiones: primero, un colchón de seis meses de gastos; segundo, invertir de forma automática y diversificada, sin intentar adivinar el mercado; tercero, revisar comisiones una vez al año. Nada de esto garantiza nada. Pero son las palancas que dependen de ti. El resto es ruido, titulares y gente vendiendo cursos.",
+          "image_prompt": "Three simple levers on a workbench, hands turning one, coins and seeds around, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "La pregunta correcta no es cuánto necesito para ser libre, sino cuánto me cuesta mi vida actual y cuánto de eso es negociable. Haz esa cuenta este fin de semana. Y si te ha servido, suscríbete, porque la próxima semana veremos cómo montar una cartera sencilla con tres fondos. Nos vemos.",
+          "image_prompt": "Sunrise over a calm harbor, a person looking at the horizon next to a small boat, editorial illustration",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-10-23T09:00:00+00:00",
+      "source": "sample",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261023-090100-short",
+      "status": "draft",
+      "format": "short",
+      "title": "La regla 50/30/20 no funciona (y qué hacer en su lugar)",
+      "thumbnail_text": "50/30/20 NO",
+      "description": "La regla 50/30/20 es un buen punto de partida, pero falla cuando el alquiler se come medio sueldo. La alternativa: automatizar el ahorro antes de gastar.\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "regla 50/30/20",
+        "ahorro",
+        "presupuesto",
+        "finanzas personales",
+        "short"
+      ],
+      "sources": [],
+      "scenes": [
+        {
+          "text": "La regla cincuenta treinta veinte suena perfecta: mitad necesidades, treinta por ciento caprichos, veinte por ciento ahorro. El problema es que está pensada para sueldos y alquileres que no existen en media España.",
+          "image_prompt": "A pie chart made of three slices of bread on a breakfast table, one slice much smaller, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Si tu alquiler ya se come el cuarenta y cinco por ciento del sueldo, la regla no te falla: te dice que tu presupuesto no cabe. Y forzar el veinte por ciento de ahorro recortando comida no es disciplina, es hambre.",
+          "image_prompt": "A tiny apartment where the rent bill is a giant monster squeezing the room, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "La alternativa: paga primero a tu yo del futuro. Ahorra un porcentaje fijo el día que cobras, aunque sea el cinco por ciento. Con el resto, vive. Y sube ese porcentaje cada vez que te suban el sueldo, no cuando te acuerdes.",
+          "image_prompt": "A person putting a coin into a piggy bank shaped like a future self, calendar on the wall, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Los porcentajes son una brújula, no una ley. Lo que importa es que el ahorro salga de tu cuenta antes de que te lo gastes. Si quieres, te enseño en otro vídeo cómo automatizarlo en diez minutos.",
+          "image_prompt": "A compass on a table full of receipts and coins, pointing towards a small plant growing, editorial illustration",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-10-23T09:01:00+00:00",
+      "source": "sample",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261023-090200-short",
+      "status": "draft",
+      "format": "short",
+      "title": "Invertir solo en España es apostar el 100% a un 1%",
+      "thumbnail_text": "SESIEGO LOCAL",
+      "description": "España pesa alrededor del 1% de la bolsa mundial. Concentrar ahí toda tu cartera no es prudencia: es una apuesta muy grande a un mercado muy pequeño.\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "diversificar",
+        "invertir",
+        "bolsa",
+        "sesgo local",
+        "cartera"
+      ],
+      "sources": [],
+      "scenes": [
+        {
+          "text": "¿Todo tu dinero invertido en España? Es una de las decisiones más caras que puedes tomar sin darte cuenta. España pesa alrededor del uno por ciento de la bolsa mundial. Invertir solo aquí es apostar el cien por cien de tu cartera a ese uno por ciento.",
+          "image_prompt": "A small island shaped like a coin in the middle of a huge ocean, a person standing on it, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Se llama sesgo local: invertimos en lo que conocemos. Suena prudente, pero concentra el riesgo en un solo país, una sola moneda y unos pocos sectores. Si España va mal, tu sueldo, tu casa y tu cartera van mal a la vez.",
+          "image_prompt": "Three dominoes falling in a row labeled with house, coin and briefcase shapes, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "La solución no es exiliar tu dinero: es diversificar. Un fondo global te da acceso a miles de empresas de decenas de países con una sola compra. Y no necesitas adivinar cuál va a ganar.",
+          "image_prompt": "A tree with branches made of different flags and coins, roots spreading across a world map, editorial illustration",
+          "chart": null
+        },
+        {
+          "text": "Diversificar no elimina las caídas. Elimina la posibilidad de que un solo país te arruine. Esa es la diferencia entre invertir y apostar.",
+          "image_prompt": "A person surfing a big wave with a diversified surfboard made of many small planks, editorial illustration",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-10-23T09:02:00+00:00",
+      "source": "sample",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261023-165633-long-ce92",
+      "status": "draft",
+      "format": "long",
+      "title": "por qué tu sueldo real se está desinflando mientras el ibex cae",
+      "thumbnail_text": "SUELDO REAL EN DECRECIMIENTO",
+      "description": "El Ibex 35 ha roto los 19.000 puntos y el petróleo vuelve a los 116 dólares, mientras la inflación sigue erosionando el poder adquisitivo de los salarios. En este vídeo explicamos, con ejemplos y datos reales, cómo la subida de precios afecta a tu sueldo real y por qué los mercados no siempre compensan esa pérdida.\n\nAnalizamos la relación entre salarios, inflación y rendimientos bursátiles, señalando los riesgos de los tipos de interés y la incertidumbre tecnológica. Concluimos con una reflexión sobre qué estrategias pueden ayudar a mitigar la pérdida de poder de compra, sin dar consejos de inversión.\n\nSources:\n- El Economista: https://news.google.com/rss/articles/CBMilgJBVV95cUxPYk1TXzQ4T29CUGlJcmR6TVFtdTltanRhUDdKaC1Bbkg1YVVNamVVY2pxdm5BeGFuRGlXckZ1eTlLQlZCemVuRUNHakxhNmZvYTNxM2RNRGhhaDNJeXMyRXhvcVBhZG1pc2wzUTVrc1dBTkJYLU1OVExfRTU3NmxpTUNWaFhlSHJFSElQNzVSZmR2alJFUkd5a0FlbVlFbk11VHgwX1MzYVpmYV9Qb3ZCYXF1MlpBWmVaa3pJYVRMcDRPNV9aUmdIOVc3eUE2T2lteTBCb1lNc0RDOXg3eDFpdFh0b1FHV1JleG1kRmYxc0RaN0ZZajMyV3g0NFRMYmpNeTNRWVJFN0E0cmtOMEU2cm52c1JzUdIBgAJBVV95cUxNMTFYUTZtMlBwVXkxemtLQnRXMm9abHhvd2xpNzREU1lMV2FrMkhSX0o4cFA0LUFGNENWeU5KQVp5ZlJjNE5pRHVkYkZ1N1FWcjlCdnFhVEJZS1FqNGttemRjR3BGMzk5N043SV9HTFgyNjhkZnp1M1NrYmNhbHVxQjcwNGQwbTRvWEpPQjFudW4yMzRWTFVENUk0ZXRwQkVHRkFqTi04Q1AtQVFwMEgyUFk2VTU3OTE3ZGV3c0NBNFRlVlhOM01RZEpEa0R1cjUwRk5BSjZUVk5WSUJSVGhtRmtFQTlnUWw5R1ZVU1FncVVVZ0pCR3dkYUI4VTBlSXZK?oc=5, - El Confidencial: https://news.google.com/rss/articles/CBMilAFBVV95cUxOdGllZEFOTTREb2haUjcwcXFRckwxYUlqeWluUWs2V202SGUzS0M0VldWTUJPNlVFNl9JQUxuN2JQSkNfZkRyYlo1MzlrRmlwWjdjQWhZLWxiRjY2VGpvVVdBM3NDNExFUXNwT3IwXzBxczJXdXZ5OFF5aGdwVlVQQTJPLUVhb0piSk9yOUlrNGhpT19v?oc=5, - Morningstar: https://news.google.com/rss/articles/CBMiswFBVV95cUxNaGQ0V0pvTzA5VEQwZ0dDcXE0MTN1d2NqZUpuVzFZd0M0VUhmSmxDZDI2eWRLYmVWaFd3RnVjb2RKeDdtcWtFVTE4dXdpMGVlck1Xa0x0emVuWnlrbGxzaVZ0Zzd0ck1qWVNsZGJzRlZ3OWY5Wjg1UkNEaktKcEpWWDByaU1LWFgzenhMV29GbWMxd0xVano4R0dEZzAwd1lJV0JXSzZmaUVZcGVEVEcwRm9wSQ?oc=5\n\nNo es asesoramiento financiero.\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "inflación",
+        "sueldo real",
+        "ibex",
+        "mercados",
+        "tipos de interés",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "El Confidencial",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdGllZEFOTTREb2haUjcwcXFRckwxYUlqeWluUWs2V202SGUzS0M0VldWTUJPNlVFNl9JQUxuN2JQSkNfZkRyYlo1MzlrRmlwWjdjQWhZLWxiRjY2VGpvVVdBM3NDNExFUXNwT3IwXzBxczJXdXZ5OFF5aGdwVlVQQTJPLUVhb0piSk9yOUlrNGhpT19v?oc=5"
+        },
+        {
+          "title": "Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaGQ0V0pvTzA5VEQwZ0dDcXE0MTN1d2NqZUpuVzFZd0M0VUhmSmxDZDI2eWRLYmVWaFd3RnVjb2RKeDdtcWtFVTE4dXdpMGVlck1Xa0x0emVuWnlrbGxzaVZ0Zzd0ck1qWVNsZGJzRlZ3OWY5Wjg1UkNEaktKcEpWWDByaU1LWFgzenhMV29GbWMxd0xVano4R0dEZzAwd1lJV0JXSzZmaUVZcGVEVEcwRm9wSQ?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Sabías que tu sueldo real está perdiendo velocidad mientras el Ibex 35 se hunde bajo los 19.000? La combinación de una inflación que no cede y una bolsa nerviosa por la IA y el petróleo crea una tormenta perfecta para el poder de compra. En los próximos minutos desglosaremos por qué el dinero que llega a tu cuenta ya no compra lo mismo que el mes pasado y qué papel juegan los mercados en esa ecuación.",
+          "image_prompt": "A symbolic illustration of a shrinking salary bar over a backdrop of falling stock chart lines, with a storm cloud labeled 'inflación' hovering above, rendered in editorial ink and watercolor style, blue navy and coral tones.",
+          "chart": null
+        },
+        {
+          "text": "Primero, entendamos el mecanismo básico: la inflación mide cuánto suben los precios de los bienes y servicios. Si tus ingresos suben un 3 por ciento pero la inflación está al 5 por ciento, tu sueldo real ha caído un 2 por ciento. Es como correr en una cinta que se acelera: avanzas, pero el objetivo se aleja. Por eso, aunque veas tu nómina crecer, el poder adquisitivo puede estar retrocediendo sin que lo notes.",
+          "image_prompt": "An illustration of a treadmill labeled 'inflación' moving faster than a runner labeled 'salario', with arrows showing percentage differences, in editorial ink and watercolor, muted blue and coral palette.",
+          "chart": null
+        },
+        {
+          "text": "En España, la inflación ha rondado el 4,5 por ciento en los últimos doce meses, mientras que los aumentos salariales promedio se han quedado en torno al 2,8 por ciento. Esa brecha deja a los hogares con menos capacidad para comprar alimentos, energía y ocio. Además, el aumento de los precios de la energía, que ahora supera los 116 dólares el barril, impacta directamente en la factura de la luz y el gas, erosionando aún más el ingreso disponible.",
+          "image_prompt": "A visual of a household bill with rising energy costs, a gauge showing 4.5% inflation versus 2.8% wage growth, in editorial style with soft watercolor accents.",
+          "chart": null
+        },
+        {
+          "text": "Veamos un ejemplo numérico. Imagina que tu salario bruto anual es de 30.000 euros. Con un aumento del 3 por ciento, recibirías 30.900 euros. Si la inflación anual es del 5 por ciento, el coste de vida sube a 31.500 euros. En términos reales, tu poder de compra ha disminuido en 600 euros, lo que equivale a un 1,9 por ciento menos de lo que podías adquirir antes. Esa diferencia puede ser la que marque la diferencia entre pagar la hipoteca o no.",
+          "image_prompt": "A side‑by‑side comparison of two salary figures, 30,000 € and 30,900 €, with a rising price level bar indicating 5 % inflation, rendered in editorial ink and watercolor, blue navy background.",
+          "chart": null
+        },
+        {
+          "text": "Para poner esto en contexto bursátil, observemos el comportamiento del S&P 500 en los últimos cinco años. Aunque ha registrado subidas significativas, su rendimiento promedio anual ha sido de alrededor del 6 por ciento, apenas superior a la inflación global. Este gráfico muestra cómo, a pesar de la volatilidad, la tendencia ha sido positiva, pero no suficiente para compensar completamente la pérdida de poder adquisitivo en muchos hogares.",
+          "image_prompt": "A clean line chart showing the S&P 500 upward trend over five years, with a subtle background of inflation icons, editorial illustration style, blue navy and cream colors.",
+          "chart": {
+            "ticker": "^spx",
+            "label": "S&P 500 · últimos 5 años",
+            "caption": "Rendimiento del S&P 500 supera ligeramente la inflación global",
+            "days": 1825
+          }
+        },
+        {
+          "text": "El Ibex 35, que ha caído al 18.990, refleja la incertidumbre europea: los temores por la IA, la caída de la banca y el repunte del petróleo. Cuando los índices bajan, la rentabilidad de los fondos de inversión también disminuye, reduciendo una posible fuente de compensación para los salarios estancados. Además, los tipos de interés de la zona euro se mantienen altos, lo que encarece los préstamos y frena el consumo, creando un círculo vicioso para la economía real.",
+          "image_prompt": "An illustration of a downward‑sloping Ibex chart intertwined with symbols of AI, banks, and oil barrels, rendered in editorial ink and watercolor with coral highlights.",
+          "chart": null
+        },
+        {
+          "text": "Los riesgos son varios. Los bancos centrales podrían mantener los tipos de interés elevados más tiempo, lo que encarece los depósitos y los créditos. La volatilidad del mercado tecnológico, alimentada por la IA, puede generar caídas bruscas que afecten a los fondos de pensiones. Por otro lado, la política fiscal en Europa sigue siendo restrictiva, limitando el estímulo a los salarios. Todos estos factores hacen que la recuperación del poder de compra sea incierta y dependa de decisiones macroeconómicas.",
+          "image_prompt": "A collage of central bank buildings, AI robot, and a broken piggy bank, in editorial watercolor style, muted blue and coral tones.",
+          "chart": null
+        },
+        {
+          "text": "Mi opinión: mientras la inflación siga superando al crecimiento salarial, el sueldo real seguirá desinflándose, aunque los mercados ofrezcan rendimientos modestos. La clave está en buscar fuentes de ingreso que no dependan únicamente del salario, como la educación continua o la inversión en activos que históricamente superen la inflación. No es un consejo financiero, sino una reflexión sobre la necesidad de diversificar el flujo de ingresos para proteger el poder de compra a largo plazo.",
+          "image_prompt": "An illustration of a person climbing a ladder made of books and certificates, with a background of rising price tags, rendered in editorial ink and watercolor.",
+          "chart": null
+        },
+        {
+          "text": "Y tú, ¿qué haces para proteger tu poder adquisitivo frente a la inflación? ¿Has pensado en ajustar tu presupuesto, buscar nuevas habilidades o explorar inversiones que superen la subida de precios? Cuéntanos en los comentarios y comparte tu experiencia. Tu respuesta podría ayudar a otros a navegar este entorno económico tan turbulento.",
+          "image_prompt": "A speech bubble filled with icons of budgeting, learning, and investment symbols, in editorial watercolor style, blue navy and coral palette.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-10-23T16:56:33+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    }
+  ]
+}
