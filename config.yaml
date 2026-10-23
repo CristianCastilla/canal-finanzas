@@ -34,7 +34,7 @@ formats:
 
 llm:
   # "gemini" (Google AI Studio) o "groq". Si falla el primero, prueba el otro.
-  provider: "gemini"
+  provider: "groq"
   model: "gemini-2.5-flash"
   groq_model: "llama-3.3-70b-versatile"
   temperature: 0.85
