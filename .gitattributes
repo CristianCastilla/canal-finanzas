@@ -1,0 +1,13 @@
+# Fuerza finales de linea LF en el repositorio para que los workflows
+# de GitHub Actions (Ubuntu) no fallen por culpa del CRLF de Windows.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary
+*.ttf binary
+*.otf binary

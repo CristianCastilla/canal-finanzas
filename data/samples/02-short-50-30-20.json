@@ -1,0 +1,44 @@
+{
+  "id": "20261023-090100-short",
+  "status": "draft",
+  "format": "short",
+  "title": "La regla 50/30/20 no funciona (y qué hacer en su lugar)",
+  "thumbnail_text": "50/30/20 NO",
+  "description": "La regla 50/30/20 es un buen punto de partida, pero falla cuando el alquiler se come medio sueldo. La alternativa: automatizar el ahorro antes de gastar.\n\nEsto es contenido educativo, no asesoramiento financiero.",
+  "tags": [
+    "regla 50/30/20",
+    "ahorro",
+    "presupuesto",
+    "finanzas personales",
+    "short"
+  ],
+  "sources": [],
+  "scenes": [
+    {
+      "text": "La regla cincuenta treinta veinte suena perfecta: mitad necesidades, treinta por ciento caprichos, veinte por ciento ahorro. El problema es que está pensada para sueldos y alquileres que no existen en media España.",
+      "image_prompt": "A pie chart made of three slices of bread on a breakfast table, one slice much smaller, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Si tu alquiler ya se come el cuarenta y cinco por ciento del sueldo, la regla no te falla: te dice que tu presupuesto no cabe. Y forzar el veinte por ciento de ahorro recortando comida no es disciplina, es hambre.",
+      "image_prompt": "A tiny apartment where the rent bill is a giant monster squeezing the room, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "La alternativa: paga primero a tu yo del futuro. Ahorra un porcentaje fijo el día que cobras, aunque sea el cinco por ciento. Con el resto, vive. Y sube ese porcentaje cada vez que te suban el sueldo, no cuando te acuerdes.",
+      "image_prompt": "A person putting a coin into a piggy bank shaped like a future self, calendar on the wall, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Los porcentajes son una brújula, no una ley. Lo que importa es que el ahorro salga de tu cuenta antes de que te lo gastes. Si quieres, te enseño en otro vídeo cómo automatizarlo en diez minutos.",
+      "image_prompt": "A compass on a table full of receipts and coins, pointing towards a small plant growing, editorial illustration",
+      "chart": null
+    }
+  ],
+  "created_at": "2026-10-23T09:01:00+00:00",
+  "source": "sample",
+  "video_path": null,
+  "thumb_path": null,
+  "youtube_id": null,
+  "publish_at": null
+}

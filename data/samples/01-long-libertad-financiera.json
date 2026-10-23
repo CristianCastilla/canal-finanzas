@@ -1,0 +1,89 @@
+{
+  "id": "20261023-090000-long",
+  "status": "draft",
+  "format": "long",
+  "title": "Cuánto necesitas de verdad para vivir de tus inversiones",
+  "thumbnail_text": "LA CUENTA REAL",
+  "description": "La regla del 4% se repite en todos los vídeos de finanzas, pero casi nadie explica de dónde sale, cuándo falla y qué gastos deja fuera. Hacemos la cuenta con números concretos y con los tres riesgos que suelen ignorarse: las caídas de la bolsa, la inflación y los costes.\n\nNo hay una cifra mágica. Hay una fórmula que depende de tu gasto real, tu horizonte y tu tolerancia a las caídas. Y hay una parte de la respuesta que no es financiera.\n\nFuentes:\n- Estudio Trinity (1998): https://en.wikipedia.org/wiki/Trinity_study\n- INE, IPC: https://www.ine.es/\n- Banco de España: https://www.bde.es/\n\nEsto es contenido educativo, no asesoramiento financiero.",
+  "tags": [
+    "libertad financiera",
+    "regla del 4%",
+    "invertir",
+    "jubilación",
+    "finanzas personales",
+    "independencia financiera"
+  ],
+  "sources": [
+    {
+      "title": "Trinity Study",
+      "url": "https://en.wikipedia.org/wiki/Trinity_study"
+    },
+    {
+      "title": "INE",
+      "url": "https://www.ine.es/"
+    }
+  ],
+  "scenes": [
+    {
+      "text": "¿Cuánto dinero hace falta para dejar de depender de un sueldo? En internet verás cifras de todo tipo: cien mil euros, un millón, lo que necesites. La mayoría son números redondos sin ningún cálculo detrás. Hoy vamos a hacer la cuenta de verdad, con una regla que lleva décadas estudiándose y con sus límites bien claros. Y te aviso: la respuesta incómoda no es cuánto dinero necesitas, sino cuánto gastas.",
+      "image_prompt": "A person standing at a crossroads made of banknotes, two roads vanishing into fog, one paved with coins, editorial illustration in ink and watercolor",
+      "chart": null
+    },
+    {
+      "text": "La regla del cuatro por ciento sale de un estudio de 1998, el Trinity Study, que analizó carteras de acciones y bonos durante periodos largos. La idea es esta: si retiras cada año el cuatro por ciento de tu cartera y el resto sigue invertido, hay una probabilidad alta de que el dinero dure treinta años. No es una garantía ni una ley física. Es una estimación histórica que funciona mejor con horizontes largos y carteras diversificadas.",
+      "image_prompt": "An old wooden desk with a paper chart made of overlapping coins, a magnifying glass and a warm lamp, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Con esa regla, la cuenta es sencilla: necesitas veinticinco veces tu gasto anual. Si gastas mil doscientos euros al mes, son catorce mil cuatrocientos al año, o sea trescientos sesenta mil euros. Para dos mil euros al mes, seiscientos mil. Y ojo: hablamos de gasto real, no de lo que te gustaría gastar. Cada euro de gasto fijo que recortas reduce el capital que necesitas. Por eso recortar gastos es la palanca más rápida, aunque sea la menos glamurosa.",
+      "image_prompt": "A monthly budget drawn as a staircase of stacked coins, a small figure climbing the steps, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Y aquí entra la parte que casi nadie enseña: la bolsa no sube en línea recta. Este gráfico muestra el S and P quinientos en los últimos cinco años. La tendencia es alcista, sí, pero con caídas intermedias que asustan. Si necesitas el dinero justo cuando cae un veinte por ciento, la regla del cuatro por ciento se rompe. Por eso el horizonte importa tanto como el porcentaje.",
+      "image_prompt": "A roller coaster made of stock market candlesticks under a stormy sky, editorial illustration",
+      "chart": {
+        "ticker": "^spx",
+        "label": "S&P 500 · últimos 5 años",
+        "caption": "La tendencia sube, pero con caídas que pueden durar meses.",
+        "days": 1825
+      }
+    },
+    {
+      "text": "Imagina dos personas con la misma cartera. Una se jubila justo antes de una crisis; la otra, después. La primera retira dinero mientras todo baja, y esas ventas le impiden recuperarse. Se llama riesgo de secuencia y es una de las razones por las que la regla del cuatro por ciento recibe tantas críticas. La solución no es adivinar el futuro: es tener un colchón de dos o tres años de gastos fuera de la bolsa para no vender en el peor momento.",
+      "image_prompt": "Two sailboats facing a storm, one leaving port before the storm and one after, dramatic clouds, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Hay otro enemigo silencioso: la inflación. Con un dos coma cinco por ciento anual, seiscientos mil euros dentro de veinte años no compran lo mismo que hoy; harían falta casi un millón para mantener el mismo poder de compra. Por eso no vale con dejar el dinero quieto. Tu cartera tiene que crecer al menos lo que suben los precios, y eso requiere asumir algo de riesgo.",
+      "image_prompt": "A shopping basket shrinking while the price tags on the shelves grow, surreal editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Y luego están los costes. Un fondo con un uno coma cinco por ciento anual de comisiones puede parecer barato, pero sobre quinientos mil euros son siete mil quinientos euros al año. En veinte años, la diferencia con un fondo indexado de cero coma dos por ciento es enorme. En España, además, las ganancias tributan en la base del ahorro, entre el diecinueve y el veintitrés por ciento. Resta comisiones e impuestos antes de creerte cualquier rentabilidad.",
+      "image_prompt": "A leaky bucket losing coins through small holes, coins scattered on the floor, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "La libertad financiera no es una cifra única. Depende de tu gasto, de tu edad, de si tienes casa pagada, de si trabajas por gusto o por necesidad. Alguien con trescientos mil euros y ochocientos de gasto tiene más margen que alguien con un millón y cinco mil de hipoteca. La cuenta honesta incluye lo que quieres conservar, no solo lo que quieres dejar de pagar.",
+      "image_prompt": "A house on one side of a balance scale and a clock on the other, a person watching, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Si tuviera que resumirlo en tres decisiones: primero, un colchón de seis meses de gastos; segundo, invertir de forma automática y diversificada, sin intentar adivinar el mercado; tercero, revisar comisiones una vez al año. Nada de esto garantiza nada. Pero son las palancas que dependen de ti. El resto es ruido, titulares y gente vendiendo cursos.",
+      "image_prompt": "Three simple levers on a workbench, hands turning one, coins and seeds around, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "La pregunta correcta no es cuánto necesito para ser libre, sino cuánto me cuesta mi vida actual y cuánto de eso es negociable. Haz esa cuenta este fin de semana. Y si te ha servido, suscríbete, porque la próxima semana veremos cómo montar una cartera sencilla con tres fondos. Nos vemos.",
+      "image_prompt": "Sunrise over a calm harbor, a person looking at the horizon next to a small boat, editorial illustration",
+      "chart": null
+    }
+  ],
+  "created_at": "2026-10-23T09:00:00+00:00",
+  "source": "sample",
+  "video_path": null,
+  "thumb_path": null,
+  "youtube_id": null,
+  "publish_at": null
+}

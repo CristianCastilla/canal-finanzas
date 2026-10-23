@@ -1,0 +1,44 @@
+{
+  "id": "20261023-090200-short",
+  "status": "draft",
+  "format": "short",
+  "title": "Invertir solo en España es apostar el 100% a un 1%",
+  "thumbnail_text": "SESIEGO LOCAL",
+  "description": "España pesa alrededor del 1% de la bolsa mundial. Concentrar ahí toda tu cartera no es prudencia: es una apuesta muy grande a un mercado muy pequeño.\n\nEsto es contenido educativo, no asesoramiento financiero.",
+  "tags": [
+    "diversificar",
+    "invertir",
+    "bolsa",
+    "sesgo local",
+    "cartera"
+  ],
+  "sources": [],
+  "scenes": [
+    {
+      "text": "¿Todo tu dinero invertido en España? Es una de las decisiones más caras que puedes tomar sin darte cuenta. España pesa alrededor del uno por ciento de la bolsa mundial. Invertir solo aquí es apostar el cien por cien de tu cartera a ese uno por ciento.",
+      "image_prompt": "A small island shaped like a coin in the middle of a huge ocean, a person standing on it, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Se llama sesgo local: invertimos en lo que conocemos. Suena prudente, pero concentra el riesgo en un solo país, una sola moneda y unos pocos sectores. Si España va mal, tu sueldo, tu casa y tu cartera van mal a la vez.",
+      "image_prompt": "Three dominoes falling in a row labeled with house, coin and briefcase shapes, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "La solución no es exiliar tu dinero: es diversificar. Un fondo global te da acceso a miles de empresas de decenas de países con una sola compra. Y no necesitas adivinar cuál va a ganar.",
+      "image_prompt": "A tree with branches made of different flags and coins, roots spreading across a world map, editorial illustration",
+      "chart": null
+    },
+    {
+      "text": "Diversificar no elimina las caídas. Elimina la posibilidad de que un solo país te arruine. Esa es la diferencia entre invertir y apostar.",
+      "image_prompt": "A person surfing a big wave with a diversified surfboard made of many small planks, editorial illustration",
+      "chart": null
+    }
+  ],
+  "created_at": "2026-10-23T09:02:00+00:00",
+  "source": "sample",
+  "video_path": null,
+  "thumb_path": null,
+  "youtube_id": null,
+  "publish_at": null
+}

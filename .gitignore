@@ -1,0 +1,11 @@
+.env
+client_secret.json
+token.json
+.venv/
+__pycache__/
+*.pyc
+out/
+assets/music/*.mp3
+assets/music/*.wav
+*.wav
+.DS_Store

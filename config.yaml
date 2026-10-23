@@ -1,0 +1,87 @@
+# ============================================================================
+#  Configuración del canal
+#  Todo lo que puedes cambiar sin tocar código.
+# ============================================================================
+
+channel:
+  name: "Economía Ilustrada"
+  tagline: "Finanzas explicadas con dibujos"
+  language: "es"
+  disclaimer: "Esto es contenido educativo, no asesoramiento financiero."
+
+# Cuántos vídeos genera el comando `generate --weekly`
+weekly:
+  long: 1
+  shorts: 2
+
+formats:
+  long:
+    width: 1920
+    height: 1080
+    fps: 30
+    scenes_min: 8
+    scenes_max: 12
+    words_per_scene: [70, 110]
+    target_seconds: 480
+  short:
+    width: 1080
+    height: 1920
+    fps: 30
+    scenes_min: 4
+    scenes_max: 6
+    words_per_scene: [20, 35]
+    target_seconds: 55
+
+llm:
+  # "gemini" (Google AI Studio) o "groq". Si falla el primero, prueba el otro.
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  groq_model: "llama-3.3-70b-versatile"
+  temperature: 0.85
+  max_output_tokens: 8192
+
+tts:
+  # "edge" = gratis y sin clave (revisa sus términos si monetizas).
+  # "piper" = 100% local y open source; instala piper-tts y un modelo .onnx.
+  engine: "edge"
+  voice: "es-ES-AlvaroNeural"
+  rate: "-4%"
+  pitch: "+0Hz"
+  piper_bin: "piper"
+  piper_model: ""
+
+images:
+  provider: "pollinations"
+  model: "flux"
+  # Tamaños nativos de SDXL; luego FFmpeg los escala al tamaño del vídeo.
+  width_long: 1280
+  height_long: 720
+  width_short: 720
+  height_short: 1280
+  style: >-
+    2D editorial illustration, hand-drawn ink outlines, watercolor and gouache
+    texture, flat colors, limited palette of deep navy blue, cream and coral red,
+    symbolic and slightly satirical, no photorealism, no 3D render, no text,
+    no letters, no numbers, no logos, no watermark
+  seed: 7
+
+video:
+  # Ruta a un mp3 con licencia (YouTube Audio Library, Pixabay...).
+  # Déjalo vacío y el vídeo saldrá solo con voz.
+  music: ""
+  music_volume: 0.07
+  subtitle: true
+  crf: 20
+  preset: "medium"
+
+youtube:
+  category_id: "27" # 27 = Educación
+  # El vídeo se sube como privado y YouTube lo publica en publish_at.
+  privacy: "private"
+  publish_hour_utc: 16
+  tags:
+    - "finanzas personales"
+    - "educación financiera"
+    - "bolsa"
+    - "invertir"
+    - "economía"
