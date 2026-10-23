@@ -86,11 +86,11 @@ def build_brief() -> dict[str, Any]:
 
 
 def brief_as_text(brief: dict[str, Any]) -> str:
-    lines = [f"Fecha: {brief['date']}", "", "Titulares recientes:"]
+    lines = [f"Fecha: {brief['date']}", "", "Titulares recientes (numerados):"]
     if brief["headlines"]:
-        for item in brief["headlines"]:
-            source = f" ({item['source']})" if item.get("source") else ""
-            lines.append(f"- {item['title']}{source} :: {item.get('link','')}")
+        for number, item in enumerate(brief["headlines"], start=1):
+            source = f" [{item['source']}]" if item.get("source") else ""
+            lines.append(f"{number}. {item['title']}{source}")
     else:
         lines.append("- (sin titulares; usa el tema evergreen)")
 
@@ -103,6 +103,24 @@ def brief_as_text(brief: dict[str, Any]) -> str:
 
     lines += ["", f"Tema evergreen sugerido: {brief['evergreen']}"]
     return "\n".join(lines)
+
+
+def vary_brief(brief: dict[str, Any], index: int, total: int) -> dict[str, Any]:
+    """Reparte titulares y temas entre varios guiones para que no salgan clonados."""
+    headlines_list = list(brief.get("headlines") or [])
+    if total > 1 and len(headlines_list) >= total * 2:
+        size = len(headlines_list) // total
+        start = (index - 1) * size
+        headlines_list = headlines_list[start : start + size + 1]
+    try:
+        position = EVERGREEN.index(brief["evergreen"]) + index
+    except ValueError:
+        position = index
+    return {
+        **brief,
+        "headlines": headlines_list,
+        "evergreen": EVERGREEN[position % len(EVERGREEN)],
+    }
 
 
 def allowed_urls(brief: dict[str, Any]) -> set[str]:

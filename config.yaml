@@ -37,8 +37,14 @@ llm:
   provider: "groq"
   model: "gemini-2.5-flash"
   groq_model: "openai/gpt-oss-120b"
+  # Groq gratis limita a 8000 tokens/minuto: pausa entre guiones para no chocar.
+  cooldown_seconds: 65
   temperature: 0.85
-  max_output_tokens: 8192
+  max_output_tokens: 5120
+  # gpt-oss "razona" antes de responder: con "low" gasta menos tokens y acierta igual.
+  groq_reasoning_effort: "low"
+  # Los shorts son cortos: pedir menos tokens deja margen en el límite por minuto.
+  max_output_tokens_short: 2048
 
 tts:
   # "edge" = gratis y sin clave (revisa sus términos si monetizas).

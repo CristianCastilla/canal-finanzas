@@ -57,6 +57,52 @@ def _normalize_chart(chart) -> dict | None:
     return {"ticker": ticker, "label": label, "caption": caption, "days": days}
 
 
+def _sentence_case(text: str) -> str:
+    """Pone en mayúscula la primera letra (y la que sigue a ¿ o ¡)."""
+    out = list(text)
+    start = True
+    for i, ch in enumerate(out):
+        if ch in "¿¡":
+            start = True
+            continue
+        if ch.isalpha():
+            if start:
+                out[i] = ch.upper()
+                start = False
+        elif ch not in " \t":
+            start = False
+    return "".join(out)
+
+
+def _clean_description(text: str) -> str:
+    """Quita listas de fuentes y enlaces que el modelo meta por su cuenta."""
+    lines = []
+    for line in text.splitlines():
+        if re.match(r"^\s*(fuentes|sources|referencias)\s*:?\s*$", line, re.I):
+            break
+        if "http://" in line or "https://" in line:
+            continue
+        lines.append(line)
+    cleaned = "\n".join(lines)
+    cleaned = re.sub(r"\(?\bhttps?://\S+\)?", "", cleaned)
+    cleaned = re.sub(r"[ \t]+\n", "\n", cleaned)
+    return re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+
+
+def _strip_disclaimer(text: str) -> str:
+    """Elimina avisos legales sueltos para dejar solo el oficial."""
+    pattern = (
+        r"(?is)\n*\s*(?:esto es contenido educativo[^\n]*"
+        r"|no es asesoramiento financiero[^\n]*"
+        r"|no constituye asesoramiento[^\n]*)\s*$"
+    )
+    previous = None
+    while previous != text:
+        previous = text
+        text = re.sub(pattern, "", text).strip()
+    return text
+
+
 def _normalize(raw: dict, fmt: str, cfg: dict, brief: dict) -> dict:
     if not isinstance(raw, dict):
         raise ValueError("El guion no es un objeto JSON.")
@@ -85,27 +131,44 @@ def _normalize(raw: dict, fmt: str, cfg: dict, brief: dict) -> dict:
         scenes = scenes[: int(fmt_cfg["scenes_max"])]
 
     title = _clean(raw.get("title"), 95)
-    if not title:
-        title = " ".join(scenes[0]["text"].split()[:9]).rstrip(".,;:")
+    title = _sentence_case(title)
+    if len(title) < 20 or len(title.split()) < 4:
+        # Título demasiado corto o vago: nos quedamos con el gancho de la primera escena.
+        fallback = " ".join(scenes[0]["text"].split()[:14]).rstrip(".,;:¿?¡!")
+        title = _sentence_case(fallback or title or "Finanzas explicadas")[:95]
 
     thumb = _clean(raw.get("thumbnail_text"), 48) or title[:42]
 
     allowed = ideas.allowed_urls(brief)
+    headline_list = brief.get("headlines") or []
     sources = []
-    for source in raw.get("sources") or []:
-        if not isinstance(source, dict):
+    seen_urls = set()
+    for entry in raw.get("sources") or []:
+        # El modelo devuelve números de titular; también aceptamos dicts por si acaso.
+        if isinstance(entry, (int, str)) and str(entry).strip().isdigit():
+            index = int(str(entry).strip()) - 1
+            if not 0 <= index < len(headline_list):
+                continue
+            headline = headline_list[index]
+            url = _clean(headline.get("link"), 500)
+            source_title = _clean(headline.get("source"), 60) or "Fuente"
+        elif isinstance(entry, dict):
+            url = _clean(entry.get("url"), 500)
+            source_title = _clean(entry.get("title"), 80) or "Fuente"
+        else:
             continue
-        url = _clean(source.get("url"), 300)
-        if not url.startswith("http"):
+        if not url.startswith("http") or url in seen_urls:
             continue
         if allowed and url not in allowed:
             continue  # evita URLs inventadas
-        sources.append({"title": _clean(source.get("title"), 80) or "Fuente", "url": url})
+        seen_urls.add(url)
+        sources.append({"title": source_title, "url": url})
     sources = sources[:5]
 
     description = str(raw.get("description") or "").strip()
-    description = re.sub(r"\n{3,}", "\n\n", description)[:4200]
-    if sources and "http" not in description:
+    description = _clean_description(description)
+    description = _strip_disclaimer(description)[:3800]
+    if sources:
         description += "\n\nFuentes:\n" + "\n".join(f"- {s['title']}: {s['url']}" for s in sources)
     disclaimer = cfg["channel"]["disclaimer"]
     if disclaimer not in description:
@@ -139,6 +202,12 @@ def _normalize(raw: dict, fmt: str, cfg: dict, brief: dict) -> dict:
     return item
 
 
+def _max_tokens(fmt: str, cfg: dict) -> int:
+    if fmt == "short":
+        return int(cfg["llm"].get("max_output_tokens_short") or 2048)
+    return int(cfg["llm"]["max_output_tokens"])
+
+
 def generate(fmt: str, cfg: dict, brief: dict | None = None) -> dict:
     brief = brief or ideas.build_brief()
     system, user_tpl = _load_prompts()
@@ -153,7 +222,7 @@ def generate(fmt: str, cfg: dict, brief: dict | None = None) -> dict:
     )
     system = system.replace("{channel}", cfg["channel"]["name"])
 
-    raw = complete_json(system, user, cfg)
+    raw = complete_json(system, user, cfg, max_tokens=_max_tokens(fmt, cfg))
     item = _normalize(raw, fmt, cfg, brief)
     log.info("Guion listo: %s (%s escenas)", item["title"], len(item["scenes"]))
     return item

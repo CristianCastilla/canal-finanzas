@@ -33,9 +33,26 @@ def _clean_json(text: str) -> dict:
         raise LLMError(f"JSON inválido: {exc}") from exc
 
 
+def _wait_seconds(response, default: float) -> float:
+    """Lee 'retry-after' o el 'try again in Xs' de Groq y acota la espera."""
+    header = response.headers.get("retry-after")
+    if header:
+        try:
+            return min(max(float(header), 2.0), 90.0)
+        except ValueError:
+            pass
+    match = re.search(r"try again in ([\d.]+)\s*s", response.text or "", re.I)
+    if match:
+        try:
+            return min(float(match.group(1)) + 3, 90.0)
+        except ValueError:
+            pass
+    return min(default, 90.0)
+
+
 def _post(url: str, **kwargs) -> requests.Response:
     last: Exception | None = None
-    for attempt in range(3):
+    for attempt in range(4):
         try:
             response = requests.post(url, timeout=180, **kwargs)
         except requests.RequestException as exc:
@@ -47,8 +64,8 @@ def _post(url: str, **kwargs) -> requests.Response:
 
         if response.status_code in (429, 500, 502, 503, 504):
             last = LLMError(f"HTTP {response.status_code}: {response.text[:300]}")
-            wait = 4 * (attempt + 1)
-            log.warning("LLM intento %s falló (%s). Reintento en %ss", attempt + 1, last, wait)
+            wait = _wait_seconds(response, 8 * (attempt + 1))
+            log.warning("LLM intento %s falló (%s). Reintento en %.0fs", attempt + 1, last, wait)
             time.sleep(wait)
             continue
 
@@ -59,7 +76,7 @@ def _post(url: str, **kwargs) -> requests.Response:
     raise LLMError(f"No se pudo contactar con el modelo: {last}")
 
 
-def gemini_json(system: str, user: str, cfg: dict) -> dict:
+def gemini_json(system: str, user: str, cfg: dict, max_tokens: int | None = None) -> dict:
     key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not key:
         raise LLMError("Falta GEMINI_API_KEY.")
@@ -69,7 +86,7 @@ def gemini_json(system: str, user: str, cfg: dict) -> dict:
         "contents": [{"role": "user", "parts": [{"text": user}]}],
         "generationConfig": {
             "temperature": float(cfg["llm"]["temperature"]),
-            "maxOutputTokens": int(cfg["llm"]["max_output_tokens"]),
+            "maxOutputTokens": int(max_tokens or cfg["llm"]["max_output_tokens"]),
             "responseMimeType": "application/json",
         },
     }
@@ -90,20 +107,23 @@ def gemini_json(system: str, user: str, cfg: dict) -> dict:
     return _clean_json(text)
 
 
-def groq_json(system: str, user: str, cfg: dict) -> dict:
+def groq_json(system: str, user: str, cfg: dict, max_tokens: int | None = None) -> dict:
     key = os.environ.get("GROQ_API_KEY")
     if not key:
         raise LLMError("Falta GROQ_API_KEY.")
     payload = {
         "model": cfg["llm"].get("groq_model") or DEFAULT_GROQ_MODEL,
         "temperature": float(cfg["llm"]["temperature"]),
-        "max_tokens": int(cfg["llm"]["max_output_tokens"]),
+        "max_tokens": int(max_tokens or cfg["llm"]["max_output_tokens"]),
         "response_format": {"type": "json_object"},
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
     }
+    effort = cfg["llm"].get("groq_reasoning_effort")
+    if effort and str(payload["model"]).startswith("openai/gpt-oss"):
+        payload["reasoning_effort"] = str(effort)
     response = _post(
         GROQ_URL,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
@@ -117,7 +137,7 @@ def groq_json(system: str, user: str, cfg: dict) -> dict:
     return _clean_json(text)
 
 
-def complete_json(system: str, user: str, cfg: dict) -> dict:
+def complete_json(system: str, user: str, cfg: dict, max_tokens: int | None = None) -> dict:
     """Intenta el proveedor configurado y, si falla, el alternativo."""
     provider = (cfg["llm"].get("provider") or "gemini").lower()
     order = ["gemini", "groq"] if provider == "gemini" else ["groq", "gemini"]
@@ -125,7 +145,9 @@ def complete_json(system: str, user: str, cfg: dict) -> dict:
     for name in order:
         try:
             log.info("Generando guion con %s...", name)
-            return gemini_json(system, user, cfg) if name == "gemini" else groq_json(system, user, cfg)
+            if name == "gemini":
+                return gemini_json(system, user, cfg, max_tokens)
+            return groq_json(system, user, cfg, max_tokens)
         except Exception as exc:  # noqa: BLE001
             log.warning("%s falló: %s", name, exc)
             errors.append(f"{name}: {exc}")

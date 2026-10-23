@@ -17,6 +17,7 @@ import importlib.util
 import logging
 import shutil
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -63,9 +64,13 @@ def cmd_generate(args: argparse.Namespace, cfg: dict) -> int:
         jobs = [args.format] * max(1, args.count)
 
     brief = ideas.build_brief()
+    cooldown = int(cfg["llm"].get("cooldown_seconds", 0) or 0)
     created = []
     for index, fmt in enumerate(jobs, start=1):
-        item = _generate_one(fmt, cfg, brief, index, len(jobs))
+        if index > 1 and cooldown > 0:
+            log.info("Esperando %ss para no superar el límite de tokens por minuto...", cooldown)
+            time.sleep(cooldown)
+        item = _generate_one(fmt, cfg, ideas.vary_brief(brief, index, len(jobs)), index, len(jobs))
         if item:
             created.append(item)
 
