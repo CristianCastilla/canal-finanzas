@@ -154,7 +154,9 @@ def cmd_render(args: argparse.Namespace, cfg: dict) -> int:
     return 0
 
 
-def _publish_item(item: dict, cfg: dict, when: str | None, force: bool) -> int:
+def _publish_item(
+    item: dict, cfg: dict, when: str | None, force: bool, upload: bool = True
+) -> int:
     from . import notify, publish, render
 
     if item.get("status") not in ("approved", "draft") or (
@@ -169,6 +171,18 @@ def _publish_item(item: dict, cfg: dict, when: str | None, force: bool) -> int:
         log.info("Renderizando antes de publicar...")
         result = render.render_item(item, cfg)
         item = store.update(item["id"], **result) or item
+
+    if not upload:
+        video = ROOT / item["video_path"]
+        print(f"Vídeo:   {video}")
+        print(f"Miniatura: {item.get('thumb_path')}")
+        print(f"Duración: {item.get('duration')} s")
+        print("Modo sin subida: el vídeo queda en out/ para descargarlo a mano.")
+        notify.send(
+            f"<b>Vídeo renderizado</b>\n{notify.esc(item['title'])}\n"
+            "<code>Subida a YouTube desactivada</code>"
+        )
+        return 0
 
     video = ROOT / item["video_path"]
     thumb = ROOT / item["thumb_path"] if item.get("thumb_path") else None
@@ -197,7 +211,7 @@ def cmd_publish(args: argparse.Namespace, cfg: dict) -> int:
     if item.get("status") in ("scheduled", "published"):
         print(f"Ya está publicado/programado: https://youtu.be/{item.get('youtube_id')}")
         return 0
-    return _publish_item(item, cfg, args.at, args.force)
+    return _publish_item(item, cfg, args.at, args.force, upload=not args.no_upload)
 
 
 def cmd_run(args: argparse.Namespace, cfg: dict) -> int:
@@ -206,14 +220,14 @@ def cmd_run(args: argparse.Namespace, cfg: dict) -> int:
         if not item:
             print(f"No existe el guion {args.id}.")
             return 1
-        return _publish_item(item, cfg, None, args.force)
+        return _publish_item(item, cfg, None, args.force, upload=not args.no_upload)
 
     published = 0
     for _ in range(max(1, args.limit)):
         item = store.next_approved()
         if not item:
             break
-        code = _publish_item(item, cfg, None, False)
+        code = _publish_item(item, cfg, None, False, upload=not args.no_upload)
         if code != 0:
             return code
         published += 1
@@ -299,12 +313,20 @@ def build_parser() -> argparse.ArgumentParser:
     pub.add_argument("id")
     pub.add_argument("--at", help="Fecha ISO de publicación, p. ej. 2026-10-30T16:00")
     pub.add_argument("--force", action="store_true", help="Permite publicar un borrador")
+    pub.add_argument(
+        "--no-upload", action="store_true",
+        help="Solo renderiza el vídeo en out/, sin subirlo a YouTube",
+    )
     pub.set_defaults(func=cmd_publish)
 
     run = sub.add_parser("run", help="Publica el siguiente guion aprobado")
     run.add_argument("--id")
     run.add_argument("--limit", type=int, default=1)
     run.add_argument("--force", action="store_true")
+    run.add_argument(
+        "--no-upload", action="store_true",
+        help="Solo renderiza el vídeo en out/, sin subirlo a YouTube",
+    )
     run.set_defaults(func=cmd_run)
 
     samples = sub.add_parser("samples", help="Recarga los guiones de ejemplo")

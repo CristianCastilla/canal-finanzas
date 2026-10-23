@@ -12,6 +12,10 @@ on:
         description: "Permitir publicar un borrador"
         type: boolean
         default: false
+      upload:
+        description: "Subir a YouTube (desmarca para solo renderizar)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -49,19 +53,25 @@ jobs:
         env:
           ITEM_ID: ${{ inputs.id }}
           FORCE: ${{ inputs.force }}
+          UPLOAD: ${{ inputs.upload }}
           YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PYTHONUTF8: "1"
         run: |
+          UPLOAD_FLAG=""
+          if [ "$UPLOAD" = "false" ]; then
+            UPLOAD_FLAG="--no-upload"
+            echo "Modo solo render: no se sube a YouTube."
+          fi
           if [ -n "$ITEM_ID" ]; then
             if [ "$FORCE" = "true" ]; then
-              python -m src.main publish "$ITEM_ID" --force
+              python -m src.main publish "$ITEM_ID" --force $UPLOAD_FLAG
             else
-              python -m src.main publish "$ITEM_ID"
+              python -m src.main publish "$ITEM_ID" $UPLOAD_FLAG
             fi
           else
-            python -m src.main run --limit 1
+            python -m src.main run --limit 1 $UPLOAD_FLAG
           fi
 
       - name: Guardar vídeo y miniatura como artifact
