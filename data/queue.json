@@ -366,10 +366,12 @@
       ],
       "created_at": "2026-10-23T17:19:29+00:00",
       "source": "ai",
-      "video_path": null,
+      "video_path": "out/20261023-171929-short-c430/video.mp4",
       "thumb_path": null,
       "youtube_id": null,
-      "publish_at": null
+      "publish_at": null,
+      "duration": 55.88,
+      "updated_at": "2026-10-23T17:25:09+00:00"
     }
   ]
 }
