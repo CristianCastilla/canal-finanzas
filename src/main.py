@@ -40,6 +40,8 @@ def _setup_logging() -> None:
 
 
 def _generate_one(fmt: str, cfg: dict, brief: dict, index: int, total: int) -> dict | None:
+    from . import script
+
     log.info("=== Guion %s/%s (%s) ===", index, total, fmt)
     try:
         item = script.generate(fmt, cfg, brief)

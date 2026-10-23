@@ -36,7 +36,7 @@ llm:
   # "gemini" (Google AI Studio) o "groq". Si falla el primero, prueba el otro.
   provider: "groq"
   model: "gemini-2.5-flash"
-  groq_model: "llama-3.3-70b-versatile"
+  groq_model: "openai/gpt-oss-120b"
   temperature: 0.85
   max_output_tokens: 8192
 
