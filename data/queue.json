@@ -372,6 +372,218 @@
       "publish_at": null,
       "duration": 55.88,
       "updated_at": "2026-10-23T17:25:09+00:00"
+    },
+    {
+      "id": "20261025-093746-long-69f8",
+      "status": "draft",
+      "format": "long",
+      "title": "¿Por qué los fondos indexados siguen ganando a los activos gestionados?",
+      "thumbnail_text": "FONDOS INDEXADOS VS ACTIVOS",
+      "description": "En este vídeo desmontamos la idea de que los fondos de gestión activa son la única manera de batir al mercado. Analizamos cómo los costes, la rotación y la exposición real hacen que, a largo plazo, un fondo indexado bien elegido supere a la mayoría de los gestores. Además, vemos un caso práctico con datos reales del S&P quinientos y explicamos los riesgos que aún pueden afectar a los inversores pasivos.\n\nAl final, te dejo mi conclusión personal y una pregunta para que sigas pensando en tu estrategia de inversión. No olvides suscribirte para más análisis claros y sin rodeos.\n\nFuentes:\n- El Economista: https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1dW5LMUQ5Y2xLT2U2Ukd6dk1LakRzVzNQY2U0cjNWUWJYLVJfSVEyWXdjbm1vLS1wZnF4Vi1ianNRZ1RPOWplcG5BN1dBQ3UzYTV6Zm13?oc=5\n- Estrategias de Inversión: https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ3hJbEt1cFh2OGkzUnZZdFZyRHQ3eXVtY3RtZ3lGc1NxSVdoTVJwOU5KVGVpaFVSb081aWdVX3hYZ3EtNHRZSmlNZjhKSkNId2pJNUtwbWxNNkNhUm5Bd3RXb2ltWURqTUZBTHVxejFZVERWRk5QVGFxVklNLURlX1o3MTBybDkzVGtWetIBgwFBVV95cUxOT0o4TmlmUUlPZThBaEFsNXhWcngtOW85OWlMa0tPM3ExQVFraEVMd3lIT254amhKbkYzd0FkWHpLTUxkYkdVQXZnQjBHZzZtYTJvNnF5UzdEOEE1WDhieUhKck5qTnduYzhQQU9jYlA0SVJOZHBYRG1FU2dBZmZ6ZnlaMA?oc=5\n- Cinco Días: https://news.google.com/rss/articles/CBMikAFBVV95cUxPMGxHOW5OaGE0MzlFZVBTVG5EN2otMzA5dEN5aWNVZndjNEtkcUtPVDJab3pQN2lhcHBBZFNhYjJuVGNZS0t6d3d3ckZCMFVkMU9EeUVxWnRoLV9nMmpsQUJkUURBWXlSZVZxR011NnhzcWJXbVVDazdISnIzaEt4aVp5ZUdkbHhJSnpXVUtIX0XSAaQBQVVfeXFMTlJ0SUdZZ0QzZV93T1VlRW1PODNPcU5TM2N0T25qMmIxRXlzZTVjYzc1WjVWSlNnX0FJbGFTWjVVVGVZUlI4RVl1X09DNWg0MzhON3F6dnBUaEpCNENfRG5yQk5tRzB2S1hlMmdqazBaeU9mMGwxTVhxaDZIazVxdzZUQWxmV295WFRVajRsU2owNlhfeHBvUkVpZEtnOEhnQ1VhSXI?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "fondos",
+        "inversión",
+        "índices",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "El Economista",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1dW5LMUQ5Y2xLT2U2Ukd6dk1LakRzVzNQY2U0cjNWUWJYLVJfSVEyWXdjbm1vLS1wZnF4Vi1ianNRZ1RPOWplcG5BN1dBQ3UzYTV6Zm13?oc=5"
+        },
+        {
+          "title": "Estrategias de Inversión",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ3hJbEt1cFh2OGkzUnZZdFZyRHQ3eXVtY3RtZ3lGc1NxSVdoTVJwOU5KVGVpaFVSb081aWdVX3hYZ3EtNHRZSmlNZjhKSkNId2pJNUtwbWxNNkNhUm5Bd3RXb2ltWURqTUZBTHVxejFZVERWRk5QVGFxVklNLURlX1o3MTBybDkzVGtWetIBgwFBVV95cUxOT0o4TmlmUUlPZThBaEFsNXhWcngtOW85OWlMa0tPM3ExQVFraEVMd3lIT254amhKbkYzd0FkWHpLTUxkYkdVQXZnQjBHZzZtYTJvNnF5UzdEOEE1WDhieUhKck5qTnduYzhQQU9jYlA0SVJOZHBYRG1FU2dBZmZ6ZnlaMA?oc=5"
+        },
+        {
+          "title": "Cinco Días",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMGxHOW5OaGE0MzlFZVBTVG5EN2otMzA5dEN5aWNVZndjNEtkcUtPVDJab3pQN2lhcHBBZFNhYjJuVGNZS0t6d3d3ckZCMFVkMU9EeUVxWnRoLV9nMmpsQUJkUURBWXlSZVZxR011NnhzcWJXbVVDazdISnIzaEt4aVp5ZUdkbHhJSnpXVUtIX0XSAaQBQVVfeXFMTlJ0SUdZZ0QzZV93T1VlRW1PODNPcU5TM2N0T25qMmIxRXlzZTVjYzc1WjVWSlNnX0FJbGFTWjVVVGVZUlI4RVl1X09DNWg0MzhON3F6dnBUaEpCNENfRG5yQk5tRzB2S1hlMmdqazBaeU9mMGwxTVhxaDZIazVxdzZUQWxmV295WFRVajRsU2owNlhfeHBvUkVpZEtnOEhnQ1VhSXI?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "Los fondos de gestión activa prometen batir al mercado, pero la mayoría termina bajo‑rendiendo. ¿Qué pasa cuando los costes y la rotación se comen la diferencia? Vamos a descubrirlo.",
+          "image_prompt": "A stylized balance scale with a pile of paperwork labeled 'gestión activa' on one side and a simple index chart labeled 'fondos indexados' on the other, set against a muted blue background.",
+          "chart": null
+        },
+        {
+          "text": "Primero, hablemos de costes. Un fondo activo típico cobra entre uno y dos por ciento de comisión anual, mientras que un fondo indexado suele estar bajo el cero coma cinco por ciento. Esa diferencia parece pequeña, pero al compounding anual se vuelve enorme. Por ejemplo, invertir diez mil euros con un fondo activo al cero coma ocho de comisión y un rendimiento bruto del cinco por ciento genera menos de ocho mil setecientos euros después de diez años, frente a casi nueve mil con el índice.",
+          "image_prompt": "Illustration of two growing plants: one labeled 'activo' with stunted leaves, the other 'indexado' lush and tall, with tiny percentage signs hovering above.",
+          "chart": null
+        },
+        {
+          "text": "El segundo factor es la rotación. Los gestores activos compran y venden frecuentemente, lo que genera costes de transacción y efectos fiscales. Un fondo con rotación del veinte por ciento al año genera comisiones ocultas y puede disparar la factura del impuesto sobre ganancias. En contraste, un fondo indexado compra y mantiene los componentes del índice, reduciendo esos cargos al mínimo. Esa diferencia se traduce en rendimientos netos más altos para el inversor pasivo.",
+          "image_prompt": "A conveyor belt moving stocks labeled 'operaciones' with many arrows for an active fund, versus a calm river flowing steadily for an index fund.",
+          "chart": null
+        },
+        {
+          "text": "Ahora, la exposición real. Los gestores activos a veces se alejan del benchmark buscando alfa, pero esa desviación implica riesgo adicional. Un estudio muestra que el 80 por ciento de los fondos activos no supera a su índice de referencia en periodos de cinco años. En otras palabras, la mayoría está pagando por una apuesta que no paga. La diferencia entre la exposición del fondo y el índice se llama tracking error, y cuanto mayor, mayor la incertidumbre para el inversor.",
+          "image_prompt": "A target with arrows: most arrows miss the bullseye labeled 'índice', while a single arrow hits it, symbolizing index tracking.",
+          "chart": null
+        },
+        {
+          "text": "Veamos un ejemplo concreto con datos reales. El S and P quinientos cerró a siete mil seiscientos veintitrés coma sesenta y ocho el veintitrés de octubre. Un fondo indexado que replica ese índice tendría un rendimiento bruto del cinco por ciento este año. Si le restamos una comisión de cero coma cinco por ciento, el rendimiento neto sería cuatro coma cinco por ciento. Un fondo activo con una comisión del uno punto cinco y un rendimiento bruto del cinco punto dos acabaría con tres punto siete por ciento neto, peor que el índice.",
+          "image_prompt": "A simple line chart comparing two lines: one labeled 'Índice' rising steadily, the other 'Activo' lagging behind, over a calendar year.",
+          "chart": {
+            "ticker": "^spx",
+            "label": "S&P 500 · últimos 5 años",
+            "caption": "Rendimiento histórico muestra la ventaja de bajo coste",
+            "days": 1825
+          }
+        },
+        {
+          "text": "Pero no todo es color de rosa para los fondos indexados. Uno de los riesgos es la concentración. Si el índice está dominado por unas cuantas mega‑empresas, una caída de esas compañías golpeará todo el fondo. Además, la exposición a sectores sobrevalorados puede generar pérdidas si la burbuja estalla. Por ejemplo, la reciente ola de inversiones en IA ha inflado el valor de ciertas acciones tecnológicas, y una corrección podría afectar a todo el índice que las incluye.",
+          "image_prompt": "A magnifying glass focusing on a few large tech company logos within a larger index wheel, highlighting concentration risk.",
+          "chart": null
+        },
+        {
+          "text": "Otro matiz importante es la liquidez. Los fondos indexados suelen ser altamente líquidos, pero en momentos de crisis extrema pueden enfrentar flujos masivos de salida, obligando a vender activos a precios desfavorables. Los gestores activos, al tener mayor flexibilidad, a veces pueden proteger mejor la cartera en esos escenarios, aunque a costa de mayores comisiones. Es un trade‑off que cada inversor debe sopesar.",
+          "image_prompt": "A boat labeled 'fondo indexado' navigating calm waters, versus a motorboat labeled 'activo' maneuvering through stormy waves.",
+          "chart": null
+        },
+        {
+          "text": "En la práctica, la elección depende de tu horizonte y tolerancia al riesgo. Si buscas crecimiento a largo plazo y prefieres minimizar los costes, un fondo indexado es la opción más lógica. Si tienes un horizonte corto y buscas oportunidades específicas, la gestión activa puede aportar valor, siempre que elijas gestores con historial probado y estés consciente de los costes.",
+          "image_prompt": "A road sign fork: one path says 'Largo Plazo – Indexado', the other 'Corto Plazo – Activo', with a traveler contemplating.",
+          "chart": null
+        },
+        {
+          "text": "Mi conclusión personal: la mayoría de los inversores individuales se benefician más con fondos indexados de bajo coste y alta diversificación. Los gestores activos pueden añadir valor en nichos muy especializados, pero la regla general sigue siendo la misma: menos comisiones, mejor rendimiento neto. Así que, antes de pagar por la promesa de batir al mercado, revisa si el coste extra realmente se traduce en alfa sostenido.",
+          "image_prompt": "A simple illustration of a piggy bank wearing glasses, labeled 'índice', overflowing with coins, while a smaller jar labeled 'activo' has fewer coins.",
+          "chart": null
+        },
+        {
+          "text": "Y tú, ¿prefieres la seguridad de un fondo indexado o la posible recompensa de la gestión activa? Déjame tu respuesta en los comentarios y suscríbete para más análisis sin rodeos.",
+          "image_prompt": "A speech bubble with a question mark hovering over two icons: a chart line and a magnifying glass, inviting viewer interaction.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-10-25T09:37:46+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261025-093853-short-dfc2",
+      "status": "draft",
+      "format": "short",
+      "title": "¿Por qué tres meses de efectivo pueden salvarte la cartera?",
+      "thumbnail_text": "EFECTIVO 3 MESES",
+      "description": "Tener un colchón de tres meses de gastos en efectivo no es sólo una cuestión de seguridad, sino una herramienta que cambia cómo reaccionas ante la volatilidad del mercado, te permite aprovechar oportunidades sin vender a pérdida y reduce el estrés financiero en momentos de decisiones rápidas, como una subida inesperada del petróleo o la incertidumbre de la IA.\n\nFuentes:\n- Merca2.es: https://news.google.com/rss/articles/CBMigAFBVV95cUxPc3ZLRk9TSlJJbWpKZmFieDR1ZncyNjNPUXc0c3RkM2xvZlY4VGQzMXpXMHRaT2x2SEhSb3hzdzQ0cklWeHhsOE8xVi16Y0R0ZHNsNkJldzltQ2ZTR2JBRkk2RVMwWmdweF9SZHhoNk9sUXlBblBhaWhGVWs0Y1NUWQ?oc=5\n- Morningstar: https://news.google.com/rss/articles/CBMirgFBVV95cUxNTjQtUlExdDJNR0VxRXJYcDVfNVBkaHRwRUxNRTBFeGpHZlRvdkxDNjRQN0xEZ0xialV2T1NTRDk3aXJVcUdKTjhtUlM1ZXVyY0c1SHpRbTctOUhxWTA5RTZBWUQtNGtnc1NHbDU4a1l3SHZWM2Fta3QyNGVLS1cwUUtaejZXOTgtQ1Z3U1UwOU5IY3NfZmE0OWRRdndLY0NVM2hQT1RrQjBzSGxKLXc?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "finanzas personales",
+        "liquidez",
+        "gestión de riesgos",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "Merca2.es",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc3ZLRk9TSlJJbWpKZmFieDR1ZncyNjNPUXc0c3RkM2xvZlY4VGQzMXpXMHRaT2x2SEhSb3hzdzQ0cklWeHhsOE8xVi16Y0R0ZHNsNkJldzltQ2ZTR2JBRkk2RVMwWmdweF9SZHhoNk9sUXlBblBhaWhGVWs0Y1NUWQ?oc=5"
+        },
+        {
+          "title": "Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTjQtUlExdDJNR0VxRXJYcDVfNVBkaHRwRUxNRTBFeGpHZlRvdkxDNjRQN0xEZ0xialV2T1NTRDk3aXJVcUdKTjhtUlM1ZXVyY0c1SHpRbTctOUhxWTA5RTZBWUQtNGtnc1NHbDU4a1l3SHZWM2Fta3QyNGVLS1cwUUtaejZXOTgtQ1Z3U1UwOU5IY3NfZmE0OWRRdndLY0NVM2hQT1RrQjBzSGxKLXc?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Sabías que el mayor riesgo de la bolsa no es la caída, sino la falta de liquidez para aprovecharla? Eso lo veremos en tres minutos.",
+          "image_prompt": "A simple illustration of a person holding a safety net made of cash bills, with a roller coaster of stock market symbols in the background.",
+          "chart": null
+        },
+        {
+          "text": "Imagina que el petróleo sube y la IA genera temores; si solo tienes tu inversión en acciones, podrías vender a pérdida por pánico.",
+          "image_prompt": "A stylized oil barrel and a robot silhouette causing waves, while a hand pulls a plug on a stock chart.",
+          "chart": null
+        },
+        {
+          "text": "Con tres meses de gastos en efectivo, puedes mantener la calma, esperar a que el mercado se estabilice y comprar cuando los precios están rebajados.",
+          "image_prompt": "A calm sea with a buoy labeled '3 meses' floating next to a stormy sea of red stock arrows.",
+          "chart": null
+        },
+        {
+          "text": "Ese colchón también te permite cubrir emergencias sin tocar tu cartera, evitando la trampa de vender bajo presión y perder oportunidades futuras.",
+          "image_prompt": "A wallet split in two: one side with cash cushions, the other with a broken piggy bank spilling stocks.",
+          "chart": null
+        },
+        {
+          "text": "Al final, la liquidez no es solo seguridad; es la libertad de decidir cuándo entrar y salir, sin que el miedo dicte tus movimientos.",
+          "image_prompt": "A person standing at a crossroads, holding a cash umbrella, with signposts pointing to 'buy' and 'sell' in the distance.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-10-25T09:38:53+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261025-093959-short-ab30",
+      "status": "draft",
+      "format": "short",
+      "title": "El gran error que cometes al calcular tus rendimientos",
+      "thumbnail_text": "RENDIMIENTO REAL",
+      "description": "Muchos creen que su inversión rinde bien solo mirando el número bruto, pero olvidan comisiones, impuestos y costes ocultos que pueden reducir la ganancia a la mitad. Descubre por qué medir la rentabilidad neta es esencial y cómo evitar sorpresas desagradables en tu cartera.\n\nFuentes:\n- MONCLOA.COM: https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1R1bDhEX1Zfcm5QMS1mU1RUTXJLZHJtNFJpWERoMjZEa0xxbGVicGs1eUdqMWFkMnlxLWhKcU1yNkEydF90a2tKYnk1SXFLSWNhemdWRzdRWFlNT2xlSVhRTGdPdkJrTVM4S3NvQXpWVVJlRURNbFB3QXo2YTdORVV2dw?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "rentabilidad",
+        "comisiones",
+        "impuestos",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "MONCLOA.COM",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1R1bDhEX1Zfcm5QMS1mU1RUTXJLZHJtNFJpWERoMjZEa0xxbGVicGs1eUdqMWFkMnlxLWhKcU1yNkEydF90a2tKYnk1SXFLSWNhemdWRzdRWFlNT2xlSVhRTGdPdkJrTVM4S3NvQXpWVVJlRURNbFB3QXo2YTdORVV2dw?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Sabías que un fondo que anuncia veinte por ciento de rentabilidad puede terminar dándote solo diez después de comisiones e impuestos? Eso es el primer error que vemos.",
+          "image_prompt": "A bright illustration of a financial chart with a big green arrow labeled '20%' turning into a smaller red arrow labeled '10%' as fees and taxes icons appear.",
+          "chart": null
+        },
+        {
+          "text": "Las comisiones de gestión y custodia se cobran cada año, y aunque parezcan pocos puntos, se suman y reducen exponencialmente el efecto del interés compuesto.",
+          "image_prompt": "A simple illustration of a snowball rolling down a hill, losing pieces labeled 'comisión' and 'custodia' as it grows.",
+          "chart": null
+        },
+        {
+          "text": "Los impuestos, como el impuesto sobre la renta de capital, gravan los beneficios al momento de vender, lo que corta la ganancia justo cuando más la necesitas.",
+          "image_prompt": "A stylized illustration of a wallet with money being partially taken by a tax collector figure holding a clipboard.",
+          "chart": null
+        },
+        {
+          "text": "Si calculas tu rentabilidad neta, restando todos esos gastos, obtendrás una visión realista y evitarás decisiones basadas en cifras infladas.",
+          "image_prompt": "An illustration of a calculator displaying 'rentabilidad neta' with a clear, clean background, and a checkmark beside it.",
+          "chart": null
+        },
+        {
+          "text": "En resumen, el truco está en mirar el número después de restar todo: comisiones, custodias, impuestos y cualquier cargo oculto. Así sabrás si realmente ganaste.",
+          "image_prompt": "A concluding illustration of a transparent glass showing the true profit amount, with false inflated numbers fading away.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-10-25T09:39:59+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
     }
   ]
 }
