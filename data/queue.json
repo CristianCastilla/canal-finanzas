@@ -584,6 +584,219 @@
       "thumb_path": null,
       "youtube_id": null,
       "publish_at": null
+    },
+    {
+      "id": "20261101-114354-long-dd7d",
+      "status": "draft",
+      "format": "long",
+      "title": "La trampa de los productos sin riesgo que nadie te cuenta",
+      "thumbnail_text": "PRODUCTOS SIN RIESGO",
+      "description": "Muchos inversores creen que existen productos financieros que combinan cero riesgo y rentabilidad garantizada. En este vídeo desmontamos esa ilusión, explicando por qué la promesa de “sin riesgo” es una trampa que puede costar caro, incluso cuando los bancos anuncian resultados brillantes. Analizamos el mecanismo de los productos estructurados, los depósitos vinculados y los bonos de alta rentabilidad, mostrando con datos reales cómo el mercado los valora y qué riesgos ocultan tras la fachada de seguridad.\n\nAl final, te dejo una conclusión práctica: si buscas estabilidad, la mejor defensa es diversificar y entender el coste de oportunidad de cada “garantía”. ¿Te atreves a cuestionar lo que parece demasiado bueno para ser verdad?\n\nFuentes:\n- Finanzas.com: https://news.google.com/rss/articles/CBMilwFBVV95cUxNenpEdWV2SFpZZ0N0NVlERlF1Q240cnR5QUVrb1k3N1k5NTNUSmJ4VlQwTWdCOUE1VnM2VVpsYVA3RUNVTFowU09aVUsxUzNRSUJtaGtTWHYxRVVMY2EwRGJJcHpjMUJfTGo0SUpsTmtIdDNNMjlkdjNxSlNPa012ZEIwbzAzQ0xMb21KSTZOVktlNWNHTnBr0gGcAUFVX3lxTFBCeUJsYkg3RlQzUVBGSzNCTDdTdUROQnc5TXdWY1NweWUteV95Qkg0WU1ZOE02N2ptVjAyWEVjZ3pZbFhVcW94cThFakNvbU9BS05HWE9nMEFBVmgzWnFuUGlRb21yTUtPYWNMU2cyaUJVLU1uY2x3WEhyZXNBX3Z2clNJUFNSbXdXcFJsU1BEYkFmRkNjNl9OUk9DRQ?oc=5\n- El Mundo: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTJSZTFMelVSUGwycFlhZS0wVFRQOVhpQjBOekdMOFJ2QVFPQ0JnMEh3ZlJEWHlCODdSMUl2cTc3RzdfdG5hT1dfLUV4VUt2bWVKQnl1cjdCWnJUTTItOF84TzdrLTN6cnR2emY5MWR5ZTUtd3h4Wmt0a0xybDNaVG1HaDJMT2050gGIAUFVX3lxTE5rVldTZUp2aFlPa2hTbEFFOXI0S2Z3ZzRsTWh5aTVuWVFHNXB3eV81enRYYXRYdkdYd3NFRnR0QkVLTjNDWnhRSm0zbFdOX2hFWF80QTNoVzhMMldJLW16VTJnY2V4bkpKQXNtVmFZU2hLcThOTzd1eG5sV2dMdkktV1FBT2hUbks?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "finanzas",
+        "inversión",
+        "riesgo",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "Finanzas.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNenpEdWV2SFpZZ0N0NVlERlF1Q240cnR5QUVrb1k3N1k5NTNUSmJ4VlQwTWdCOUE1VnM2VVpsYVA3RUNVTFowU09aVUsxUzNRSUJtaGtTWHYxRVVMY2EwRGJJcHpjMUJfTGo0SUpsTmtIdDNNMjlkdjNxSlNPa012ZEIwbzAzQ0xMb21KSTZOVktlNWNHTnBr0gGcAUFVX3lxTFBCeUJsYkg3RlQzUVBGSzNCTDdTdUROQnc5TXdWY1NweWUteV95Qkg0WU1ZOE02N2ptVjAyWEVjZ3pZbFhVcW94cThFakNvbU9BS05HWE9nMEFBVmgzWnFuUGlRb21yTUtPYWNMU2cyaUJVLU1uY2x3WEhyZXNBX3Z2clNJUFNSbXdXcFJsU1BEYkFmRkNjNl9OUk9DRQ?oc=5"
+        },
+        {
+          "title": "El Mundo",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTJSZTFMelVSUGwycFlhZS0wVFRQOVhpQjBOekdMOFJ2QVFPQ0JnMEh3ZlJEWHlCODdSMUl2cTc3RzdfdG5hT1dfLUV4VUt2bWVKQnl1cjdCWnJUTTItOF84TzdrLTN6cnR2emY5MWR5ZTUtd3h4Wmt0a0xybDNaVG1HaDJMT2050gGIAUFVX3lxTE5rVldTZUp2aFlPa2hTbEFFOXI0S2Z3ZzRsTWh5aTVuWVFHNXB3eV81enRYYXRYdkdYd3NFRnR0QkVLTjNDWnhRSm0zbFdOX2hFWF80QTNoVzhMMldJLW16VTJnY2V4bkpKQXNtVmFZU2hLcThOTzd1eG5sV2dMdkktV1FBT2hUbks?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Sabías que hay productos financieros que se venden como “sin riesgo” y con rentabilidad garantizada? Esa frase suena a truco de magia, pero muchos la aceptan sin pensarlo. En los últimos meses, los bancos del IBEX 35 anunciaron beneficios récord mientras perdían 26.700 millones de euros en valor de mercado, una señal de que lo que parece seguro puede desmoronarse en un abrir y cerrar de ojos.",
+          "image_prompt": "A stylized illustration of a magician pulling a rabbit out of a hat made of financial symbols, with a backdrop of stock market tickers fading away.",
+          "chart": null
+        },
+        {
+          "text": "El problema empieza con la percepción: cuando una entidad promete una rentabilidad fija, el inversor suele olvidar que esa garantía está respaldada por algún activo subyacente. Si el activo falla, la garantía se vuelve una promesa vacía. Los productos estructurados, por ejemplo, combinan un derivado con un bono, y el retorno depende de que el derivado no se active. En la práctica, esa condición suele estar atada a la evolución de índices como el S and P quinientos.",
+          "image_prompt": "Editorial illustration of a financial contract made of gears and chains, linked to a rising S&P 500 line, with a warning sign subtly integrated.",
+          "chart": null
+        },
+        {
+          "text": "Veamos un ejemplo con números. Imagina un depósito vinculado al IBEX 35 que ofrece un 4 por ciento anual garantizado, pero solo si el índice no baja más del diez por ciento durante el año. Si el IBEX cierra a 18.652,90 puntos y su caída supera ese umbral, el banco retiene la rentabilidad y tú solo recibes el capital. En una semana reciente, el IBEX perdió un 1,09 por ciento, y la volatilidad acumulada en los últimos meses ha rondado el ocho por ciento, acercándose peligrosamente al disparador del contrato.",
+          "image_prompt": "Simple illustration of a scale balancing a guaranteed return badge on one side and a volatile IBEX chart on the other.",
+          "chart": null
+        },
+        {
+          "text": "Ahora, comparemos con un bono de alta rentabilidad que paga un 6 por ciento pero está emitido por un banco que ha perdido 26.700 millones de euros en bolsa pese a sus beneficios. Esa pérdida refleja dudas sobre su solvencia futura. Si el banco enfrenta dificultades, el bono puede sufrir una rebaja de precio o, en el peor caso, un impago. La rentabilidad “alta” es, en esencia, una compensación por un mayor riesgo crediticio que el inversor a menudo subestima.",
+          "image_prompt": "Illustration of a towering bank building with cracks, while a shiny high‑yield bond floats above it, tethered by a thin rope.",
+          "chart": null
+        },
+        {
+          "text": "Para poner estos conceptos en perspectiva, observemos el comportamiento del S and P quinientos en los últimos cinco años. Desde 2021 ha subido alrededor de un veinticinco por ciento, pero ha registrado caídas de hasta veinte por ciento en periodos de alta volatilidad, como en 2022 y 2024. Esa montaña rusa es la que alimenta los disparadores de los productos “sin riesgo”.",
+          "image_prompt": "A clean line chart showing S&P 500 over five years with peaks and troughs, highlighted in blue and coral tones.",
+          "chart": {
+            "ticker": "^spx",
+            "label": "S&P 500 · últimos 5 años",
+            "caption": "Subidas y caídas que activan cláusulas de los productos estructurados",
+            "days": 1825
+          }
+        },
+        {
+          "text": "Los riesgos no terminan en el activo subyacente. Otro factor es la liquidez: muchos de estos productos no se pueden vender antes del vencimiento sin perder parte del capital. Si el mercado se vuelve desfavorable y necesitas efectivo, te ves atrapado con una pérdida inevitable. Además, la complejidad contractual dificulta que el inversor promedio entienda todas las condiciones, creando una zona gris donde el “sin riesgo” se vuelve una ilusión.",
+          "image_prompt": "Illustration of a locked box labeled “Liquidity”, with a frustrated investor trying to open it using a tangled rope of fine print.",
+          "chart": null
+        },
+        {
+          "text": "Un matiz importante es la fiscalidad. En algunos países, los productos estructurados se gravan como ingresos ordinarios, lo que reduce la rentabilidad neta. Incluso si la garantía parece atractiva, el impuesto sobre la diferencia entre el rendimiento garantizado y el real puede mermar los beneficios esperados. Por tanto, siempre conviene calcular el rendimiento después de impuestos antes de decidirse.",
+          "image_prompt": "Editorial drawing of a calculator spilling tax symbols over a financial product certificate.",
+          "chart": null
+        },
+        {
+          "text": "En mi opinión, la mejor estrategia es enfocarse en la diversificación y en instrumentos transparentes, como fondos indexados de bajo coste. Estos ofrecen exposición al mercado sin cláusulas ocultas y con una liquidez prácticamente inmediata. Si buscas estabilidad, combina un pequeño porcentaje en productos garantizados con una mayor parte en activos que realmente puedas controlar y entender.",
+          "image_prompt": "Illustration of a diversified portfolio garden, with clear, healthy plants representing index funds and tangled vines representing complex products.",
+          "chart": null
+        },
+        {
+          "text": "Para terminar, quiero saber tu opinión: ¿has invertido alguna vez en un producto que prometía cero riesgo y una rentabilidad fija? Cuéntame en los comentarios qué experiencia tuviste y si volverías a confiar en ese tipo de ofertas. La conversación nos ayuda a todos a evitar trampas financieras.",
+          "image_prompt": "A simple illustration of a speech bubble filled with question marks hovering over a financial chart background.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-11-01T11:43:54+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261101-114500-short-a4e0",
+      "status": "draft",
+      "format": "short",
+      "title": "El mito del mejor momento para invertir",
+      "thumbnail_text": "NUNCA ES EL MOMENTO PERFECTO",
+      "description": "Muchos creen que hay una ventana mágica para comprar acciones, pero la realidad es que el mercado es una montaña rusa y el tiempo es tu mejor aliado. Entre la caída de la gran banca, la incertidumbre sobre la IA y la política de tipos del BCE, vemos que intentar cronometrar la bolsa solo genera estrés y oportunidades perdidas. La clave está en la constancia y en aceptar que siempre habrá algún riesgo.\n\nFuentes:\n- El Mundo: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTJSZTFMelVSUGwycFlhZS0wVFRQOVhpQjBOekdMOFJ2QVFPQ0JnMEh3ZlJEWHlCODdSMUl2cTc3RzdfdG5hT1dfLUV4VUt2bWVKQnl1cjdCWnJUTTItOF84TzdrLTN6cnR2emY5MWR5ZTUtd3h4Wmt0a0xybDNaVG1HaDJMT2050gGIAUFVX3lxTE5rVldTZUp2aFlPa2hTbEFFOXI0S2Z3ZzRsTWh5aTVuWVFHNXB3eV81enRYYXRYdkdYd3NFRnR0QkVLTjNDWnhRSm0zbFdOX2hFWF80QTNoVzhMMldJLW16VTJnY2V4bkpKQXNtVmFZU2hLcThOTzd1eG5sV2dMdkktV1FBT2hUbks?oc=5\n- Cinco Días: https://news.google.com/rss/articles/CBMikAFBVV95cUxOMktCMXVNN2d6QXhpb1BscENYMWdyWHFFeDlxWmx4c1drN3FtaTh3TTQ0ZjF5Z0lLSDBVRUpXMnE3eUhra3hQM040OF9IQU90ZXdCYW5zOEkyLVp3Njhtbzhydk1vaXF4cGhsaWtwYVM2VTVQY0VzTW0zbldhb2d3NmFKWlFHVGIyajBYUEZIVWPSAaQBQVVfeXFMUHhteUtVNXVQbmU0RDRTMnRHYkpFak5lM3dlWWtjOF8tVFpLT1VSbkR6QWlLZnR4dnhHMFFsdENpaGYyRVhSNjF0T3ppaW5zRmE5MEJDeklFcjhUWEZXYjRLVWlLYUZWY0N3UHlUYXdvUTNNSEJ4azF2VzlFZkZxeEFQM214M2VEWm0zRkNBQ0xiVnNHVkVNZDNHSGpFYS1fVmlCY04?oc=5\n- El Economista: https://news.google.com/rss/articles/CBMilwJBVV95cUxNdEY3TnhWWUdieGpoenQ3S0VvaXFlMVBQLTkwNkVaNGVMUFpfR2daUWFVN1d5Ym1YdXlwUXktSHIyYmJHQU5Hak1mMHFLR1l6RF82UVhOaXk3MjdlUDFiYXlYWHhtNUxEVXp1Mi00cGw2MTBSNEJVUlhUY0wyeUpLSnBQQ2VOTVBWYkc1OTRPRWJ6dUFnVUZWcTE2QUJCZFQyb0I4R01xYnh1ZWN4VGM4a1dXQTRLd3h2bzBsWWFFUUMwZ3NVamM5T043c09va3k0WFN1aVZ4UGg3MVRHeFByN0dtWWdVblBORUJBSXJINzBUODR6WGhnajRPWGN5dnZvQi1vcUU0a2pPZXZqdS1veWlGbUE4bU0?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "inversión",
+        "mercados",
+        "educación financiera",
+        "finanzas personales",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "El Mundo",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTJSZTFMelVSUGwycFlhZS0wVFRQOVhpQjBOekdMOFJ2QVFPQ0JnMEh3ZlJEWHlCODdSMUl2cTc3RzdfdG5hT1dfLUV4VUt2bWVKQnl1cjdCWnJUTTItOF84TzdrLTN6cnR2emY5MWR5ZTUtd3h4Wmt0a0xybDNaVG1HaDJMT2050gGIAUFVX3lxTE5rVldTZUp2aFlPa2hTbEFFOXI0S2Z3ZzRsTWh5aTVuWVFHNXB3eV81enRYYXRYdkdYd3NFRnR0QkVLTjNDWnhRSm0zbFdOX2hFWF80QTNoVzhMMldJLW16VTJnY2V4bkpKQXNtVmFZU2hLcThOTzd1eG5sV2dMdkktV1FBT2hUbks?oc=5"
+        },
+        {
+          "title": "Cinco Días",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMktCMXVNN2d6QXhpb1BscENYMWdyWHFFeDlxWmx4c1drN3FtaTh3TTQ0ZjF5Z0lLSDBVRUpXMnE3eUhra3hQM040OF9IQU90ZXdCYW5zOEkyLVp3Njhtbzhydk1vaXF4cGhsaWtwYVM2VTVQY0VzTW0zbldhb2d3NmFKWlFHVGIyajBYUEZIVWPSAaQBQVVfeXFMUHhteUtVNXVQbmU0RDRTMnRHYkpFak5lM3dlWWtjOF8tVFpLT1VSbkR6QWlLZnR4dnhHMFFsdENpaGYyRVhSNjF0T3ppaW5zRmE5MEJDeklFcjhUWEZXYjRLVWlLYUZWY0N3UHlUYXdvUTNNSEJ4azF2VzlFZkZxeEFQM214M2VEWm0zRkNBQ0xiVnNHVkVNZDNHSGpFYS1fVmlCY04?oc=5"
+        },
+        {
+          "title": "El Economista",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdEY3TnhWWUdieGpoenQ3S0VvaXFlMVBQLTkwNkVaNGVMUFpfR2daUWFVN1d5Ym1YdXlwUXktSHIyYmJHQU5Hak1mMHFLR1l6RF82UVhOaXk3MjdlUDFiYXlYWHhtNUxEVXp1Mi00cGw2MTBSNEJVUlhUY0wyeUpLSnBQQ2VOTVBWYkc1OTRPRWJ6dUFnVUZWcTE2QUJCZFQyb0I4R01xYnh1ZWN4VGM4a1dXQTRLd3h2bzBsWWFFUUMwZ3NVamM5T043c09va3k0WFN1aVZ4UGg3MVRHeFByN0dtWWdVblBORUJBSXJINzBUODR6WGhnajRPWGN5dnZvQi1vcUU0a2pPZXZqdS1veWlGbUE4bU0?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Crees que hay un momento perfecto para comprar acciones? Olvídate de la fantasía: el mercado nunca se detiene y tú tampoco deberías.",
+          "image_prompt": "A stylized clock with its hands melting like cheese, overlaid on a roller coaster track made of stock charts, in blue navy and coral ink illustration.",
+          "chart": null
+        },
+        {
+          "text": "Esta semana la gran banca perdió veintiséis mil setecientos millones de euros en bolsa, pese a anunciar beneficios récord, mostrando lo impredecible del precio de las acciones.",
+          "image_prompt": "A towering bank building shedding a massive pile of coins that tumble away, set against a stormy sky, rendered in watercolor style.",
+          "chart": null
+        },
+        {
+          "text": "Al mismo tiempo, las tecnológicas se desploman por la duda del gasto en IA, y el Nasdaq cae tres coma cinco por ciento tras el batacazo de Intel.",
+          "image_prompt": "A sleek robot with a broken antenna standing beside a falling chart line, surrounded by neon pink and teal, in editorial illustration.",
+          "chart": null
+        },
+        {
+          "text": "El BCE mantiene los tipos en dos coma cinco por ciento, intentando frenar la inflación, pero esa decisión no alivia la volatilidad que sienten los inversores.",
+          "image_prompt": "A central bank building with a thermometer stuck at 2.5, icy winds blowing through, depicted in minimalist ink and pastel tones.",
+          "chart": null
+        },
+        {
+          "text": "La solución no es esperar la señal perfecta, sino invertir de forma constante, diversificada y con la mirada puesta a largo plazo, aceptando que siempre habrá riesgos.",
+          "image_prompt": "A steady river flowing past a series of stepping stones labeled 'diversify', 'regular', 'patience', under a sunrise, in soft blue and coral illustration.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-11-01T11:45:00+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261101-114607-short-5efe",
+      "status": "draft",
+      "format": "short",
+      "title": "Qué deuda pagar primero y cuál evitar para siempre",
+      "thumbnail_text": "DEUDA INTELIGENTE",
+      "description": "Aprende a ordenar tus deudas como si fuera una lista de la compra: primero las que te cuestan más y nunca te quedes con la que no te deja respirar. Usa este método para no perderte entre tipos de interés y la inflación que sube.\n\nFuentes:\n- El Economista: https://news.google.com/rss/articles/CBMilwJBVV95cUxNdEY3TnhWWUdieGpoenQ3S0VvaXFlMVBQLTkwNkVaNGVMUFpfR2daUWFVN1d5Ym1YdXlwUXktSHIyYmJHQU5Hak1mMHFLR1l6RF82UVhOaXk3MjdlUDFiYXlYWHhtNUxEVXp1Mi00cGw2MTBSNEJVUlhUY0wyeUpLSnBQQ2VOTVBWYkc1OTRPRWJ6dUFnVUZWcTE2QUJCZFQyb0I4R01xYnh1ZWN4VGM4a1dXQTRLd3h2bzBsWWFFUUMwZ3NVamM5T043c09va3k0WFN1aVZ4UGg3MVRHeFByN0dtWWdVblBORUJBSXJINzBUODR6WGhnajRPWGN5dnZvQi1vcUU0a2pPZXZqdS1veWlGbUE4bU0?oc=5\n- Expansión: https://news.google.com/rss/articles/CBMilgFBVV95cUxOTVVpUWdDRTNQakxIV3NSdmYxWm1jWmt2Tm9hcjFDU2FXMER1VlNyQTJpOFVZUFRzUzNEb1d0clJza2NCeWdrUV91dFoxYmhjQnlCTU9mUnRnekkxMU1WaGpabDRabjlNY0lyWUptcGhGTElaeVhyaWs1ZlBlZzY0STVVWVN6WV84UEtrbEVkdlhmU19EMVHSAZYBQVVfeXFMTnl5NThrX1gxMENTVm5jTjZDZ0V0VmNCT3pKNVljcTJmUUhGeEZCcHFsbmp6WG4wVjBhTEZxdzYwZG5CTDdzSEJwdnJkM0trZ3hPaGF1NFctdTJJWFd3UURQbkxGVGY4WWZhUFZoNkIxNlU1NG5aVi1FcFhmdmRQb1R6NUtNSENBX190WlVEcTY4ZHhqUW9R?oc=5\n- RTVE.es: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkxvYmY2ZjVfcXFMTDkxTTNVWDlBQ1BwSHRUZTRYMGxGbjJuekVsbTZXdWpfWnh0ZXkwVlZZVTE1R2ppN0ZxMFVBTi1ReHRzeVJyR3dER1oyTHczTjZ4R0t5ZkFKTGRzczJrMmZ5VmMzeFlHcHV2MjNUVTRoY2R6N2VNMmdkUk1majdfTHFUZkZVTXV1STNzWWNWcU5Pd0NYTDl3RVB1bTRnVi1QRk9GRzdteTliZ2Q3V2pGZG8wTXo5VzE0TGh1NFZnNG43QVhhWjNGSA?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "deudas",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "El Economista",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdEY3TnhWWUdieGpoenQ3S0VvaXFlMVBQLTkwNkVaNGVMUFpfR2daUWFVN1d5Ym1YdXlwUXktSHIyYmJHQU5Hak1mMHFLR1l6RF82UVhOaXk3MjdlUDFiYXlYWHhtNUxEVXp1Mi00cGw2MTBSNEJVUlhUY0wyeUpLSnBQQ2VOTVBWYkc1OTRPRWJ6dUFnVUZWcTE2QUJCZFQyb0I4R01xYnh1ZWN4VGM4a1dXQTRLd3h2bzBsWWFFUUMwZ3NVamM5T043c09va3k0WFN1aVZ4UGg3MVRHeFByN0dtWWdVblBORUJBSXJINzBUODR6WGhnajRPWGN5dnZvQi1vcUU0a2pPZXZqdS1veWlGbUE4bU0?oc=5"
+        },
+        {
+          "title": "Expansión",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTVVpUWdDRTNQakxIV3NSdmYxWm1jWmt2Tm9hcjFDU2FXMER1VlNyQTJpOFVZUFRzUzNEb1d0clJza2NCeWdrUV91dFoxYmhjQnlCTU9mUnRnekkxMU1WaGpabDRabjlNY0lyWUptcGhGTElaeVhyaWs1ZlBlZzY0STVVWVN6WV84UEtrbEVkdlhmU19EMVHSAZYBQVVfeXFMTnl5NThrX1gxMENTVm5jTjZDZ0V0VmNCT3pKNVljcTJmUUhGeEZCcHFsbmp6WG4wVjBhTEZxdzYwZG5CTDdzSEJwdnJkM0trZ3hPaGF1NFctdTJJWFd3UURQbkxGVGY4WWZhUFZoNkIxNlU1NG5aVi1FcFhmdmRQb1R6NUtNSENBX190WlVEcTY4ZHhqUW9R?oc=5"
+        },
+        {
+          "title": "RTVE.es",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkxvYmY2ZjVfcXFMTDkxTTNVWDlBQ1BwSHRUZTRYMGxGbjJuekVsbTZXdWpfWnh0ZXkwVlZZVTE1R2ppN0ZxMFVBTi1ReHRzeVJyR3dER1oyTHczTjZ4R0t5ZkFKTGRzczJrMmZ5VmMzeFlHcHV2MjNUVTRoY2R6N2VNMmdkUk1majdfTHFUZkZVTXV1STNzWWNWcU5Pd0NYTDl3RVB1bTRnVi1QRk9GRzdteTliZ2Q3V2pGZG8wTXo5VzE0TGh1NFZnNG43QVhhWjNGSA?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Sabías que el BCE mantiene los tipos en 2,5% mientras la inflación sube? Eso significa que el coste de tu deuda no va a bajar pronto.",
+          "image_prompt": "Illustration of a European central bank building with a steady gauge at 2.5% and rising inflation arrows in the background.",
+          "chart": null
+        },
+        {
+          "text": "Primera regla: paga primero la deuda con mayor tipo de interés. Es como eliminar la mancha más grande antes de lavar el resto de la ropa.",
+          "image_prompt": "Editorial illustration of a person removing a large red stain from a shirt before smaller spots, with interest rate symbols.",
+          "chart": null
+        },
+        {
+          "text": "Segunda regla: evita las deudas sin fin, como los créditos al consumo que se disparan aunque la inflación ya te está estrangulando.",
+          "image_prompt": "A balloon labeled 'créditos al consumo' inflating rapidly, threatening to pop over a person holding a wallet.",
+          "chart": null
+        },
+        {
+          "text": "Tercera regla: la deuda hipotecaria suele ser la más barata, pero no la ignores. Si el tipo sube, el pago mensual se vuelve una sorpresa desagradable.",
+          "image_prompt": "A house with a lock shaped like a percentage sign, showing a subtle rise in the lock's height.",
+          "chart": null
+        },
+        {
+          "text": "Cierre: ordena tus deudas, prioriza la más cara y elimina la que no puedes pagar. Así, la inflación y los tipos de interés no te atraparán.",
+          "image_prompt": "A tidy checklist with debts crossed out in order, a calm person standing beside a rising inflation chart in the distance.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-11-01T11:46:07+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
     }
   ]
 }
