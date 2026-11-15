@@ -1004,6 +1004,217 @@
       "thumb_path": null,
       "youtube_id": null,
       "publish_at": null
+    },
+    {
+      "id": "20261115-123259-long-73cb",
+      "status": "draft",
+      "format": "long",
+      "title": "¿Ahorrar o invertir? La decisión que cambia tu futuro",
+      "thumbnail_text": "AHORRAR VS INVERTIR",
+      "description": "Muchos confunden ahorrar con invertir y terminan atrapados en la trampa de la inflación. En este vídeo explicamos, con ejemplos claros y datos actuales, cuándo conviene guardar el dinero bajo el colchón y cuándo es mejor ponerlo a trabajar en los mercados.\n\nDesglosamos los riesgos, los costos ocultos y la mentalidad necesaria para pasar de la seguridad aparente del ahorro a la oportunidad real de la inversión. Al final tendrás una hoja de ruta práctica y una pregunta que te hará reflexionar sobre tu próximo paso financiero.\n\nFuentes:\n- Expansión: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEdOZzFhYXZDbElRTmpBS2hfTjAtdmI3ZVlhaTBhWGdBU0ZFR2xaQnR5al93anJ6LXhOZzBueVM1OTRXcUZNcGFtVHBrb0FCUHdCeXh0RVhrNDFpZ3Qza25xRHFvWlFIOUJnZjRDTVRhanBMaTVIOS16cXBLVy1JRDdNZjFpSVhRLUhj0gGLAUFVX3lxTE96M3Fja0pYa2pmZEw3Rk1veGlTRXo0eEF0LWxRUi1jbXlmM3VuTUJENzBSWW5FYm5LYjVlRXhhY0tNN2xDWnc3N2Q0SzhUdU1QenRYcUlKME1Gd2tDREVzSmVWYXltYV9NdlVIMEFLX1ZxbWEzemhwSDkwUjc0QmM0RU9RRHVoZlNibVk?oc=5\n- Expansión: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSU5hN2l2dnBqajVTN0E1U0NXLUwtdUFVTXB6YVp3bWE2SWN6b2cwX3JMWDFEdFQ0OU44a3NDd1BOc0I1aXNtUEdHNFNuUVhMNlBEYjR6ZTc1dEdNMXhneDQyaGpYQTVHU2JJaDBFbDg3bXhkeDdaOWFGcEcwT24tYU9OeDFCWTFIbWpZ0gGLAUFVX3lxTE04UTkxd2ZPb0hXOEZEUGRaWDBSR1hyUGJYLUN0dzRPOG5aZkNQYWR5aFQtcTF0SmZ1WVVVU2VkTDVyRXNvYlNQR1I0bERGV3pxVzIzcHpoVVo3SjBOUEtHYm1XcWxac1BNdENKSTRWMzVMdGx4eDFhSXVfVk1Mc08xbWNiUVo1Z2Nkd3c?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "ahorro",
+        "inversión",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "Expansión",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEdOZzFhYXZDbElRTmpBS2hfTjAtdmI3ZVlhaTBhWGdBU0ZFR2xaQnR5al93anJ6LXhOZzBueVM1OTRXcUZNcGFtVHBrb0FCUHdCeXh0RVhrNDFpZ3Qza25xRHFvWlFIOUJnZjRDTVRhanBMaTVIOS16cXBLVy1JRDdNZjFpSVhRLUhj0gGLAUFVX3lxTE96M3Fja0pYa2pmZEw3Rk1veGlTRXo0eEF0LWxRUi1jbXlmM3VuTUJENzBSWW5FYm5LYjVlRXhhY0tNN2xDWnc3N2Q0SzhUdU1QenRYcUlKME1Gd2tDREVzSmVWYXltYV9NdlVIMEFLX1ZxbWEzemhwSDkwUjc0QmM0RU9RRHVoZlNibVk?oc=5"
+        },
+        {
+          "title": "Expansión",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSU5hN2l2dnBqajVTN0E1U0NXLUwtdUFVTXB6YVp3bWE2SWN6b2cwX3JMWDFEdFQ0OU44a3NDd1BOc0I1aXNtUEdHNFNuUVhMNlBEYjR6ZTc1dEdNMXhneDQyaGpYQTVHU2JJaDBFbDg3bXhkeDdaOWFGcEcwT24tYU9OeDFCWTFIbWpZ0gGLAUFVX3lxTE04UTkxd2ZPb0hXOEZEUGRaWDBSR1hyUGJYLUN0dzRPOG5aZkNQYWR5aFQtcTF0SmZ1WVVVU2VkTDVyRXNvYlNQR1I0bERGV3pxVzIzcHpoVVo3SjBOUEtHYm1XcWxac1BNdENKSTRWMzVMdGx4eDFhSXVfVk1Mc08xbWNiUVo1Z2Nkd3c?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Sabías que el dinero bajo el colchón pierde valor cada año? La inflación media en la zona euro ronda el dos por ciento, y si guardas tus ahorros sin generar intereses, al cabo de diez años tendrás menos poder de compra que hoy. Eso es el punto de partida: entender que ahorrar y proteger son cosas distintas.",
+          "image_prompt": "A cozy bedroom with a mattress and a sack of money under it, dust particles floating, symbolizing stagnant cash, muted pastel colors, editorial illustration style.",
+          "chart": null
+        },
+        {
+          "text": "El problema surge cuando la gente confunde la seguridad del ahorro con la seguridad financiera. Un depósito a plazo en un banco español paga alrededor del cero punto cinco por ciento, mientras que la inflación se lleva el dos por ciento. El resultado es que, en términos reales, tu capital se encoge. Esa es la razón por la que la mayoría de los expertos recomiendan destinar una parte a la inversión.",
+          "image_prompt": "A balance scale, one side with a piggy bank labeled \"Ahorro\" and the other side with a chart rising, labeled \"Inflación\", showing the savings side sinking, minimalist line art.",
+          "chart": null
+        },
+        {
+          "text": "Pero invertir no es sinónimo de arriesgarlo todo. La clave está en la diversificación y el horizonte temporal. Si tienes menos de cinco años para un objetivo, la volatilidad de la bolsa puede ser un problema. En cambio, si tu meta es a 20 o 30 años, la capacidad de los mercados para superar la inflación se vuelve tu aliada.",
+          "image_prompt": "A road stretching into the horizon with signposts at 5, 10, 20 years, each accompanied by icons of a safe, a stock chart, and a retirement house, warm sunrise palette.",
+          "chart": null
+        },
+        {
+          "text": "Veamos un ejemplo numérico. Imagina que ahorras diez mil euros hoy. Si lo dejas bajo el colchón, al cabo de diez años tendrás diez mil euros, pero con poder de compra de apenas ocho mil euros, asumiendo dos por ciento de inflación anual. Si, en cambio, lo inviertes en un fondo indexado que rinde siete por ciento bruto, después de diez años tendrás alrededor de diecisiete mil euros, y con la inflación descontada, unos trece mil euros reales. La diferencia es abismal.",
+          "image_prompt": "Two side‑by‑side calculators, one showing \"10,000\" unchanged, the other showing growth to \"17,000\" with arrows and a small inflation icon, clean vector style.",
+          "chart": null
+        },
+        {
+          "text": "Ahora, pasemos a los datos reales. El S and P quinientos ha cerrado recientemente en siete mil quinientos sesenta y uno punto seis siete, y su rendimiento promedio de los últimos cinco años está cerca del ocho por ciento anual. Eso significa que, a largo plazo, el mercado ha superado consistentemente la inflación. Veamos el gráfico que muestra esa evolución.",
+          "image_prompt": "A simple line chart on a white background, blue line rising over five years, labeled \"S&P 500\" with subtle grid, editorial illustration style.",
+          "chart": {
+            "ticker": "^spx",
+            "label": "S&P 500 · últimos 5 años",
+            "caption": "Rendimiento medio superior a la inflación",
+            "days": 1825
+          }
+        },
+        {
+          "text": "Sin embargo, invertir conlleva riesgos. Los mercados pueden caer bruscamente, como la corrección del Nasdaq tras el rebote de Nvidia. Además, los costes de gestión, impuestos y la posible mala elección de activos pueden erosionar los beneficios. No todos los fondos activos superan al índice, y la selección de acciones baratas del Ibex no garantiza rentabilidad futura.",
+          "image_prompt": "A roller coaster track shaped like a stock chart, with small warning signs, dark clouds overhead, representing market risk, stylized illustration.",
+          "chart": null
+        },
+        {
+          "text": "Otro matiz importante es la psicología del inversor. La aversión a la pérdida nos lleva a vender en momentos de caída, congelando pérdidas. La disciplina de mantener la posición a largo plazo y reequilibrar la cartera cuando sea necesario es lo que diferencia a los inversores exitosos de los que se quedan paralizados.",
+          "image_prompt": "A person looking at a stormy sea of red and green bars, holding a compass labeled \"Plan\", with calm sky ahead, metaphorical illustration.",
+          "chart": null
+        },
+        {
+          "text": "Entonces, ¿cuándo deberías pasar del ahorro a la inversión? Si tu fondo de emergencia cubre tres a seis meses de gastos, ya puedes destinar una parte a activos que superen la inflación. Si tu objetivo es a medio o largo plazo, la inversión diversificada en fondos indexados o ETFs de bajo costo es la opción más razonable.",
+          "image_prompt": "A toolbox labeled \"Finanzas\" with compartments: emergency fund, low‑cost index fund, high‑risk stock, each represented by simple icons, clean design.",
+          "chart": null
+        },
+        {
+          "text": "En conclusión, ahorrar sin invertir es como guardar agua en una cubeta con agujeros: se escapa con el tiempo. La inversión, bien estructurada, es la manera de reparar esos agujeros y hacer que tu dinero crezca. Mi opinión: construye primero tu colchón de emergencia, luego pon el resto en una cartera simple de bajo costo y mantén la vista en el horizonte.",
+          "image_prompt": "A bucket with holes being patched by hands holding coins, water turning into a growing plant, symbolic editorial illustration.",
+          "chart": null
+        },
+        {
+          "text": "Y tú, ¿qué parte de tu dinero ya está trabajando para ti y cuál sigue bajo el colchón? Déjame tu respuesta en los comentarios y suscríbete para más trucos financieros sin rodeos.",
+          "image_prompt": "A speech bubble with a question mark hovering over a simple wallet icon, friendly cartoon style.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-11-15T12:32:59+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261115-123405-short-0283",
+      "status": "draft",
+      "format": "short",
+      "title": "Antes de comprar un ETF, revisa estos tres datos clave",
+      "thumbnail_text": "COMPRAR ETF SIN SORPRESAS",
+      "description": "Comprar un ETF parece fácil, pero hay tres cosas que la mayoría pasa por alto: el coste total de gestión, cómo replica el índice y el tamaño del fondo. El TER te dice cuánto pagas cada año, la réplica (física o sintética) afecta al riesgo de contraparte y la liquidez depende de los activos bajo gestión. Ignorar cualquiera de estos puntos puede convertir una inversión segura en una sorpresa desagradable.\n\nFuentes:\n- Expansión: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSU5hN2l2dnBqajVTN0E1U0NXLUwtdUFVTXB6YVp3bWE2SWN6b2cwX3JMWDFEdFQ0OU44a3NDd1BOc0I1aXNtUEdHNFNuUVhMNlBEYjR6ZTc1dEdNMXhneDQyaGpYQTVHU2JJaDBFbDg3bXhkeDdaOWFGcEcwT24tYU9OeDFCWTFIbWpZ0gGLAUFVX3lxTE04UTkxd2ZPb0hXOEZEUGRaWDBSR1hyUGJYLUN0dzRPOG5aZkNQYWR5aFQtcTF0SmZ1WVVVU2VkTDVyRXNvYlNQR1I0bERGV3pxVzIzcHpoVVo3SjBOUEtHYm1XcWxac1BNdENKSTRWMzVMdGx4eDFhSXVfVk1Mc08xbWNiUVo1Z2Nkd3c?oc=5\n- Bankinter: https://news.google.com/rss/articles/CBMiekFVX3lxTE4wdDc1ODVKTzJRb000NS10V1Q4YUtWYmI4SVJqSmt5MVNVVlRfeWFIM21LdXl6LXNQYkhMQndTVnVYelJMTGhReFhFSnRrVEN6dmsyTmtReGtnU2x0S3dWeW05bmUyR2JiX3poZS1TUEMtQUF2eEtCdnd3?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "ETF",
+        "inversión",
+        "finanzas",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "Expansión",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSU5hN2l2dnBqajVTN0E1U0NXLUwtdUFVTXB6YVp3bWE2SWN6b2cwX3JMWDFEdFQ0OU44a3NDd1BOc0I1aXNtUEdHNFNuUVhMNlBEYjR6ZTc1dEdNMXhneDQyaGpYQTVHU2JJaDBFbDg3bXhkeDdaOWFGcEcwT24tYU9OeDFCWTFIbWpZ0gGLAUFVX3lxTE04UTkxd2ZPb0hXOEZEUGRaWDBSR1hyUGJYLUN0dzRPOG5aZkNQYWR5aFQtcTF0SmZ1WVVVU2VkTDVyRXNvYlNQR1I0bERGV3pxVzIzcHpoVVo3SjBOUEtHYm1XcWxac1BNdENKSTRWMzVMdGx4eDFhSXVfVk1Mc08xbWNiUVo1Z2Nkd3c?oc=5"
+        },
+        {
+          "title": "Bankinter",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wdDc1ODVKTzJRb000NS10V1Q4YUtWYmI4SVJqSmt5MVNVVlRfeWFIM21LdXl6LXNQYkhMQndTVnVYelJMTGhReFhFSnRrVEN6dmsyTmtReGtnU2x0S3dWeW05bmUyR2JiX3poZS1TUEMtQUF2eEtCdnd3?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Quieres montar un ETF en tu cartera? Primero, fíjate en el TER, el gasto que paga el fondo cada año, como la comisión de una suscripción a streaming.",
+          "image_prompt": "A simple illustration of a wallet with a small fee tag labeled TER, set against a muted blue background, minimalist style.",
+          "chart": null
+        },
+        {
+          "text": "Segundo, la réplica: física compra los activos reales, sintética usa derivados. Es como elegir entre comprar la fruta o un jugo concentrado.",
+          "image_prompt": "Two side-by-side baskets, one filled with whole fruits, the other with a glass of juice, pastel colors, editorial illustration.",
+          "chart": null
+        },
+        {
+          "text": "Tercero, el tamaño del fondo. Un ETF con pocos activos bajo gestión puede ser más volátil y tener spreads amplios, como un barco pequeño en mar abierto.",
+          "image_prompt": "A small boat navigating big waves compared to a large ship, simple line art on a coral background.",
+          "chart": null
+        },
+        {
+          "text": "En resumen, compara TER, tipo de réplica y tamaño antes de comprar. Así evitas sorpresas y mantienes tu inversión bajo control.",
+          "image_prompt": "A checklist with three items ticked: TER, Replicación, Tamaño, clean design, navy and cream palette.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-11-15T12:34:05+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "id": "20261115-123512-short-0e34",
+      "status": "draft",
+      "format": "short",
+      "title": "¿Por qué tu sueldo pierde valor aunque el salario suba?",
+      "thumbnail_text": "SUELDO VS INFLACIÓN",
+      "description": "Aunque los salarios parecen subir, la inflación puede comerse gran parte del aumento y dejarte con menos poder de compra. Te explico cómo se calcula el sueldo real, qué papel juegan los tipos de interés y por qué los bancos centrales mantienen la política monetaria alta. Descubre el truco que pocos notan y cómo proteger tu bolsillo sin complicarte la vida.\n\nFuentes:\n- Bankinter: https://news.google.com/rss/articles/CBMiekFVX3lxTE4wdDc1ODVKTzJRb000NS10V1Q4YUtWYmI4SVJqSmt5MVNVVlRfeWFIM21LdXl6LXNQYkhMQndTVnVYelJMTGhReFhFSnRrVEN6dmsyTmtReGtnU2x0S3dWeW05bmUyR2JiX3poZS1TUEMtQUF2eEtCdnd3?oc=5\n- CaixaBank: https://news.google.com/rss/articles/CBMiggFBVV95cUxNbEd4V25XN25tOVRQaWV6UERWa29POTI1cExpM3FWLVNUYkdyTUw3SzdEMDYzdGQybkw5bmI4R2VxNVpCdGFtQjJYV0Q3eWxxdXVDa2xsS05sVi05THFyV1otVzNPTlpoeXFHWkRsZ1RoTGFMcmVTTHM3YUNxaTZfck1B?oc=5\n- RTVE.es: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkxvYmY2ZjVfcXFMTDkxTTNVWDlBQ1BwSHRUZTRYMGxGbjJuekVsbTZXdWpfWnh0ZXkwVlZZVTE1R2ppN0ZxMFVBTi1ReHRzeVJyR3dER1oyTHczTjZ4R0t5ZkFKTGRzczJrMmZ5VmMzeFlHcHV2MjNUVTRoY2R6N2VNMmdkUk1majdfTHFUZkZVTXV1STNzWWNWcU5Pd0NYTDl3RVB1bTRnVi1QRk9GRzdteTliZ2Q3V2pGZG8wTXo5VzE0TGh1NFZnNG43QVhhWjNGSA?oc=5\n\nEsto es contenido educativo, no asesoramiento financiero.",
+      "tags": [
+        "inflación",
+        "sueldo real",
+        "economía cotidiana",
+        "finanzas personales",
+        "educación financiera",
+        "bolsa",
+        "invertir",
+        "economía"
+      ],
+      "sources": [
+        {
+          "title": "Bankinter",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wdDc1ODVKTzJRb000NS10V1Q4YUtWYmI4SVJqSmt5MVNVVlRfeWFIM21LdXl6LXNQYkhMQndTVnVYelJMTGhReFhFSnRrVEN6dmsyTmtReGtnU2x0S3dWeW05bmUyR2JiX3poZS1TUEMtQUF2eEtCdnd3?oc=5"
+        },
+        {
+          "title": "CaixaBank",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbEd4V25XN25tOVRQaWV6UERWa29POTI1cExpM3FWLVNUYkdyTUw3SzdEMDYzdGQybkw5bmI4R2VxNVpCdGFtQjJYV0Q3eWxxdXVDa2xsS05sVi05THFyV1otVzNPTlpoeXFHWkRsZ1RoTGFMcmVTTHM3YUNxaTZfck1B?oc=5"
+        },
+        {
+          "title": "RTVE.es",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkxvYmY2ZjVfcXFMTDkxTTNVWDlBQ1BwSHRUZTRYMGxGbjJuekVsbTZXdWpfWnh0ZXkwVlZZVTE1R2ppN0ZxMFVBTi1ReHRzeVJyR3dER1oyTHczTjZ4R0t5ZkFKTGRzczJrMmZ5VmMzeFlHcHV2MjNUVTRoY2R6N2VNMmdkUk1majdfTHFUZkZVTXV1STNzWWNWcU5Pd0NYTDl3RVB1bTRnVi1QRk9GRzdteTliZ2Q3V2pGZG8wTXo5VzE0TGh1NFZnNG43QVhhWjNGSA?oc=5"
+        }
+      ],
+      "scenes": [
+        {
+          "text": "¿Te han dado un aumento y sientes que sigue sin rendir? En los próximos segundos descubrirás por qué el dinero que entra no siempre compra lo mismo.",
+          "image_prompt": "A stylized illustration of a paycheck turning into a balloon that slowly deflates, symbolizing reduced purchasing power, with subtle pastel tones.",
+          "chart": null
+        },
+        {
+          "text": "Primero, el sueldo real se calcula restando la inflación al crecimiento salarial; si la inflación es veinticinco por ciento y tu salario sube diez por ciento, pierdes quince por ciento de poder de compra.",
+          "image_prompt": "An infographic style balance scale, one side labeled 'salario +10%', the other side 'inflación +25%', tipping towards inflation.",
+          "chart": null
+        },
+        {
+          "text": "¿De dónde viene esa inflación? Los tipos de interés altos, que el BCE mantiene sin cambios siguiendo a la Fed, encarecen el crédito y mantienen la presión sobre los precios.",
+          "image_prompt": "A simple illustration of a central bank building with arrows pointing upward labeled 'tipos de interés', and a rising price tag beside it.",
+          "chart": null
+        },
+        {
+          "text": "El giro: aunque los tipos altos frenan la inflación a largo plazo, en el corto pueden generar más costes de financiación para empresas, lo que a su vez alimenta la inflación de costes.",
+          "image_prompt": "A corporate building with a gear mechanism, showing higher interest rates feeding into rising production costs, depicted with rising arrows.",
+          "chart": null
+        },
+        {
+          "text": "Cierre práctico: revisa tu sueldo real cada año, ajusta tu presupuesto y busca activos que superen la inflación, como bonos indexados o inversiones diversificadas.",
+          "image_prompt": "A person reviewing a simple chart on a tablet, with icons of a house, a piggy bank, and a rising arrow indicating inflation-beating assets.",
+          "chart": null
+        }
+      ],
+      "created_at": "2026-11-15T12:35:12+00:00",
+      "source": "ai",
+      "video_path": null,
+      "thumb_path": null,
+      "youtube_id": null,
+      "publish_at": null
     }
   ]
 }
